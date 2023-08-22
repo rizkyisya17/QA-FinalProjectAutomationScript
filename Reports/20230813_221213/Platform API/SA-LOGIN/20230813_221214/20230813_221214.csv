@@ -1,0 +1,81 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SA-LOGIN,,,,2023-08-13 22:12:16,2023-08-13 22:12:21,5.139s,PASSED
+,,,,,,,
+Test Cases/API/SA-Login/SA-LOG01,,,,2023-08-13 22:12:16,2023-08-13 22:12:18,1.750s,PASSED
+"ResponseLogin = sendRequest(findTestObject(""API - Login/SA-LOG01""))",,,,2023-08-13 22:12:16,2023-08-13 22:12:17,1.513s,PASSED
+StatusCode = getResponseStatusCode(ResponseLogin),,,,2023-08-13 22:12:17,2023-08-13 22:12:17,0.006s,PASSED
+"verifyEqual(StatusCode, 200)",,,,2023-08-13 22:12:17,2023-08-13 22:12:18,0.025s,PASSED
+"ValueToken = getElementPropertyValue(ResponseLogin, ""success.token"")",,,,2023-08-13 22:12:18,2023-08-13 22:12:18,0.026s,PASSED
+"println(""status:"" + StatusCode)",,,,2023-08-13 22:12:18,2023-08-13 22:12:18,0.003s,PASSED
+"println(""token: "" + ValueToken)",,,,2023-08-13 22:12:18,2023-08-13 22:12:18,0.000s,PASSED
+,,,,,,,
+Test Cases/API/SA-Login/SA-LOG02,,,,2023-08-13 22:12:18,2023-08-13 22:12:18,0.383s,PASSED
+"ResponseLogin = sendRequest(findTestObject(""API - Login/SA-LOG02""))",,,,2023-08-13 22:12:18,2023-08-13 22:12:18,0.230s,PASSED
+StatusCode = getResponseStatusCode(ResponseLogin),,,,2023-08-13 22:12:18,2023-08-13 22:12:18,0.007s,PASSED
+"verifyEqual(StatusCode, 200)",,,,2023-08-13 22:12:18,2023-08-13 22:12:18,0.006s,PASSED
+"ValueToken = getElementPropertyValue(ResponseLogin, ""success.token"")",,,,2023-08-13 22:12:18,2023-08-13 22:12:18,0.012s,PASSED
+"println(""status:"" + StatusCode)",,,,2023-08-13 22:12:18,2023-08-13 22:12:18,0.001s,PASSED
+"println(""token: "" + ValueToken)",,,,2023-08-13 22:12:18,2023-08-13 22:12:18,0.000s,PASSED
+,,,,,,,
+Test Cases/API/SA-Login/SA-LOG03,,,,2023-08-13 22:12:18,2023-08-13 22:12:18,0.330s,PASSED
+"ResponseLogin = sendRequest(findTestObject(""API - Login/SA-LOG03""))",,,,2023-08-13 22:12:18,2023-08-13 22:12:18,0.145s,PASSED
+StatusCode = getResponseStatusCode(ResponseLogin),,,,2023-08-13 22:12:18,2023-08-13 22:12:18,0.002s,PASSED
+"verifyEqual(StatusCode, 401)",,,,2023-08-13 22:12:18,2023-08-13 22:12:18,0.020s,PASSED
+"ValueError = getElementPropertyValue(ResponseLogin, ""error"")",,,,2023-08-13 22:12:18,2023-08-13 22:12:18,0.018s,PASSED
+"println(""status: "" + StatusCode)",,,,2023-08-13 22:12:18,2023-08-13 22:12:18,0.000s,PASSED
+"println(""message: "" + ValueError)",,,,2023-08-13 22:12:18,2023-08-13 22:12:18,0.001s,PASSED
+,,,,,,,
+Test Cases/API/SA-Login/SA-LOG04,,,,2023-08-13 22:12:18,2023-08-13 22:12:19,0.499s,PASSED
+"ResponseLogin = sendRequest(findTestObject(""API - Login/SA-LOG04""))",,,,2023-08-13 22:12:18,2023-08-13 22:12:19,0.327s,PASSED
+StatusCode = getResponseStatusCode(ResponseLogin),,,,2023-08-13 22:12:19,2023-08-13 22:12:19,0.005s,PASSED
+"verifyEqual(StatusCode, 401)",,,,2023-08-13 22:12:19,2023-08-13 22:12:19,0.011s,PASSED
+"ValueError = getElementPropertyValue(ResponseLogin, ""error"")",,,,2023-08-13 22:12:19,2023-08-13 22:12:19,0.017s,PASSED
+"println(""status: "" + StatusCode)",,,,2023-08-13 22:12:19,2023-08-13 22:12:19,0.000s,PASSED
+"println(""message: "" + ValueError)",,,,2023-08-13 22:12:19,2023-08-13 22:12:19,0.001s,PASSED
+,,,,,,,
+Test Cases/API/SA-Login/SA-LOG05,,,,2023-08-13 22:12:19,2023-08-13 22:12:19,0.298s,PASSED
+"ResponseLogin = sendRequest(findTestObject(""API - Login/SA-LOG05""))",,,,2023-08-13 22:12:19,2023-08-13 22:12:19,0.153s,PASSED
+StatusCode = getResponseStatusCode(ResponseLogin),,,,2023-08-13 22:12:19,2023-08-13 22:12:19,0.003s,PASSED
+"verifyEqual(StatusCode, 401)",,,,2023-08-13 22:12:19,2023-08-13 22:12:19,0.004s,PASSED
+"ValueError = getElementPropertyValue(ResponseLogin, ""error"")",,,,2023-08-13 22:12:19,2023-08-13 22:12:19,0.017s,PASSED
+"println(""status: "" + StatusCode)",,,,2023-08-13 22:12:19,2023-08-13 22:12:19,0.001s,PASSED
+"println(""message: "" + ValueError)",,,,2023-08-13 22:12:19,2023-08-13 22:12:19,0.002s,PASSED
+,,,,,,,
+Test Cases/API/SA-Login/SA-LOG06,,,,2023-08-13 22:12:19,2023-08-13 22:12:19,0.340s,PASSED
+"ResponseLogin = sendRequest(findTestObject(""API - Login/SA-LOG06""))",,,,2023-08-13 22:12:19,2023-08-13 22:12:19,0.165s,PASSED
+StatusCode = getResponseStatusCode(ResponseLogin),,,,2023-08-13 22:12:19,2023-08-13 22:12:19,0.002s,PASSED
+"verifyEqual(StatusCode, 401)",,,,2023-08-13 22:12:19,2023-08-13 22:12:19,0.005s,PASSED
+"ValueError = getElementPropertyValue(ResponseLogin, ""error"")",,,,2023-08-13 22:12:19,2023-08-13 22:12:19,0.043s,PASSED
+"println(""status: "" + StatusCode)",,,,2023-08-13 22:12:19,2023-08-13 22:12:19,0.001s,PASSED
+"println(""message: "" + ValueError)",,,,2023-08-13 22:12:19,2023-08-13 22:12:19,0.000s,PASSED
+,,,,,,,
+Test Cases/API/SA-Login/SA-LOG07,,,,2023-08-13 22:12:19,2023-08-13 22:12:20,0.288s,PASSED
+"ResponseLogin = sendRequest(findTestObject(""API - Login/SA-LOG07""))",,,,2023-08-13 22:12:20,2023-08-13 22:12:20,0.133s,PASSED
+StatusCode = getResponseStatusCode(ResponseLogin),,,,2023-08-13 22:12:20,2023-08-13 22:12:20,0.001s,PASSED
+"verifyEqual(StatusCode, 401)",,,,2023-08-13 22:12:20,2023-08-13 22:12:20,0.001s,PASSED
+"ValueError = getElementPropertyValue(ResponseLogin, ""error"")",,,,2023-08-13 22:12:20,2023-08-13 22:12:20,0.019s,PASSED
+"println(""status: "" + StatusCode)",,,,2023-08-13 22:12:20,2023-08-13 22:12:20,0.000s,PASSED
+"println(""message: "" + ValueError)",,,,2023-08-13 22:12:20,2023-08-13 22:12:20,0.001s,PASSED
+,,,,,,,
+Test Cases/API/SA-Login/SA-LOG08,,,,2023-08-13 22:12:20,2023-08-13 22:12:20,0.279s,PASSED
+"ResponseLogin = sendRequest(findTestObject(""API - Login/SA-LOG08""))",,,,2023-08-13 22:12:20,2023-08-13 22:12:20,0.144s,PASSED
+StatusCode = getResponseStatusCode(ResponseLogin),,,,2023-08-13 22:12:20,2023-08-13 22:12:20,0.001s,PASSED
+"verifyEqual(StatusCode, 401)",,,,2023-08-13 22:12:20,2023-08-13 22:12:20,0.006s,PASSED
+"ValueError = getElementPropertyValue(ResponseLogin, ""error"")",,,,2023-08-13 22:12:20,2023-08-13 22:12:20,0.011s,PASSED
+"println(""status: "" + StatusCode)",,,,2023-08-13 22:12:20,2023-08-13 22:12:20,0.000s,PASSED
+"println(""message: "" + ValueError)",,,,2023-08-13 22:12:20,2023-08-13 22:12:20,0.000s,PASSED
+,,,,,,,
+Test Cases/API/SA-Login/SA-LOG09,,,,2023-08-13 22:12:20,2023-08-13 22:12:20,0.270s,PASSED
+"response = sendRequest(findTestObject(""API - Login/SA-LOG09""))",,,,2023-08-13 22:12:20,2023-08-13 22:12:20,0.146s,PASSED
+"verifyResponseStatusCode(response, 401)",,,,2023-08-13 22:12:20,2023-08-13 22:12:20,0.012s,PASSED
+"verifyElementPropertyValue(response, ""error"", ""Unauthorised"")",,,,2023-08-13 22:12:20,2023-08-13 22:12:20,0.020s,PASSED
+,,,,,,,
+Test Cases/API/SA-Login/SA-LOG10,,,,2023-08-13 22:12:20,2023-08-13 22:12:21,0.275s,PASSED
+"response = sendRequest(findTestObject(""API - Login/SA-LOG10""))",,,,2023-08-13 22:12:20,2023-08-13 22:12:20,0.147s,PASSED
+"verifyResponseStatusCode(response, 401)",,,,2023-08-13 22:12:20,2023-08-13 22:12:20,0.008s,PASSED
+"verifyElementPropertyValue(response, ""error"", ""Unauthorised"")",,,,2023-08-13 22:12:20,2023-08-13 22:12:21,0.022s,PASSED
+,,,,,,,
+Test Cases/API/SA-Login/SA-LOG11,,,,2023-08-13 22:12:21,2023-08-13 22:12:21,0.283s,PASSED
+"response = sendRequest(findTestObject(""API - Login/SA-LOG11""))",,,,2023-08-13 22:12:21,2023-08-13 22:12:21,0.146s,PASSED
+"verifyResponseStatusCode(response, 401)",,,,2023-08-13 22:12:21,2023-08-13 22:12:21,0.006s,PASSED
+"verifyElementPropertyValue(response, ""error"", ""Unauthorised"")",,,,2023-08-13 22:12:21,2023-08-13 22:12:21,0.014s,PASSED

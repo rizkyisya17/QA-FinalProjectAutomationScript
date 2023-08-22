@@ -1,0 +1,83 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SM-LOGIN,,,,2023-08-13 12:21:49,2023-08-13 12:24:51,3m - 1.867s,PASSED
+,,,,,,,
+Test Cases/Mobile/SM-Login/SM-LOG01,,,,2023-08-13 12:21:49,2023-08-13 12:22:27,38.063s,PASSED
+"startApplication(""C:\Users\rizky\Downloads\DemoAppV2.apk"", true)",,,,2023-08-13 12:21:50,2023-08-13 12:22:15,25.210s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - Login/android.widget.TextView - Login Here""), 3)",,,,2023-08-13 12:22:15,2023-08-13 12:22:17,2.069s,PASSED
+"setText(findTestObject(""Object Repository/Mobile - Login/android.widget.EditText""), ""isya.katalon@gmail.com"", 3)",,,,2023-08-13 12:22:17,2023-08-13 12:22:19,1.811s,PASSED
+"setText(findTestObject(""Object Repository/Mobile - Login/android.widget.EditText (1)""), ""password"", 3)",,,,2023-08-13 12:22:19,2023-08-13 12:22:20,1.630s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - Login/android.widget.TextView - Login""), 3)",,,,2023-08-13 12:22:20,2023-08-13 12:22:21,1.121s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - Login/android.widget.TextView - Profile""), 3)",,,,2023-08-13 12:22:21,2023-08-13 12:22:25,3.327s,PASSED
+"getText(findTestObject(""Object Repository/Mobile - Login/android.widget.TextView - isya.katalongmail.com""), 3)",,,,2023-08-13 12:22:25,2023-08-13 12:22:26,1.261s,PASSED
+takeScreenshot(),,,,2023-08-13 12:22:26,2023-08-13 12:22:26,0.488s,PASSED
+closeApplication(),,,,2023-08-13 12:22:26,2023-08-13 12:22:27,0.912s,PASSED
+,,,,,,,
+Test Cases/Mobile/SM-Login/SM-LOG03,,,,2023-08-13 12:22:27,2023-08-13 12:22:50,22.381s,PASSED
+"startApplication(""C:\Users\rizky\Downloads\DemoAppV2.apk"", true)",,,,2023-08-13 12:22:28,2023-08-13 12:22:40,12.045s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - Login/android.widget.TextView - Login Here""), 3)",,,,2023-08-13 12:22:40,2023-08-13 12:22:43,3.120s,PASSED
+"setText(findTestObject(""Object Repository/Mobile - Login/android.widget.EditText""), ""isya.katalon17@gmail.com"", 3)",,,,2023-08-13 12:22:43,2023-08-13 12:22:44,1.701s,PASSED
+"setText(findTestObject(""Object Repository/Mobile - Login/android.widget.EditText (1)""), ""password17"", 3)",,,,2023-08-13 12:22:44,2023-08-13 12:22:46,1.540s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - Login/android.widget.TextView - Login""), 3)",,,,2023-08-13 12:22:46,2023-08-13 12:22:47,1.248s,PASSED
+"getText(findTestObject(""Mobile - Login/android.widget.TextView - Invalid Credential""), 3)",,,,2023-08-13 12:22:47,2023-08-13 12:22:48,1.089s,PASSED
+takeScreenshot(),,,,2023-08-13 12:22:48,2023-08-13 12:22:49,0.595s,PASSED
+closeApplication(),,,,2023-08-13 12:22:49,2023-08-13 12:22:50,0.859s,PASSED
+,,,,,,,
+Test Cases/Mobile/SM-Login/SM-LOG04,,,,2023-08-13 12:22:50,2023-08-13 12:23:11,21.658s,PASSED
+"startApplication(""C:\Users\rizky\Downloads\DemoAppV2.apk"", true)",,,,2023-08-13 12:22:50,2023-08-13 12:23:02,11.849s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - Login/android.widget.TextView - Login Here""), 3)",,,,2023-08-13 12:23:02,2023-08-13 12:23:05,3.174s,PASSED
+"setText(findTestObject(""Object Repository/Mobile - Login/android.widget.EditText""), ""isya.katalon"", 3)",,,,2023-08-13 12:23:05,2023-08-13 12:23:07,1.630s,PASSED
+"setText(findTestObject(""Object Repository/Mobile - Login/android.widget.EditText (1)""), ""password"", 3)",,,,2023-08-13 12:23:07,2023-08-13 12:23:08,1.567s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - Login/android.widget.TextView - Login""), 3)",,,,2023-08-13 12:23:08,2023-08-13 12:23:09,1.138s,PASSED
+"getText(findTestObject(""Mobile - Login/android.widget.TextView - Invalid Credential""), 3)",,,,2023-08-13 12:23:09,2023-08-13 12:23:10,1.000s,PASSED
+takeScreenshot(),,,,2023-08-13 12:23:10,2023-08-13 12:23:11,0.442s,PASSED
+closeApplication(),,,,2023-08-13 12:23:11,2023-08-13 12:23:11,0.686s,PASSED
+,,,,,,,
+Test Cases/Mobile/SM-Login/SM-LOG05,,,,2023-08-13 12:23:11,2023-08-13 12:23:31,19.905s,PASSED
+"startApplication(""C:\Users\rizky\Downloads\DemoAppV2.apk"", true)",,,,2023-08-13 12:23:12,2023-08-13 12:23:22,10.665s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - Login/android.widget.TextView - Login Here""), 3)",,,,2023-08-13 12:23:22,2023-08-13 12:23:25,2.594s,PASSED
+"setText(findTestObject(""Object Repository/Mobile - Login/android.widget.EditText""), """", 3)",,,,2023-08-13 12:23:25,2023-08-13 12:23:27,1.650s,PASSED
+"setText(findTestObject(""Object Repository/Mobile - Login/android.widget.EditText (1)""), ""password"", 3)",,,,2023-08-13 12:23:27,2023-08-13 12:23:28,1.274s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - Login/android.widget.TextView - Login""), 3)",,,,2023-08-13 12:23:28,2023-08-13 12:23:29,1.224s,PASSED
+"getText(findTestObject(""Mobile - Login/android.widget.TextView - Invalid Credential""), 3)",,,,2023-08-13 12:23:29,2023-08-13 12:23:30,1.009s,PASSED
+takeScreenshot(),,,,2023-08-13 12:23:30,2023-08-13 12:23:30,0.448s,PASSED
+closeApplication(),,,,2023-08-13 12:23:30,2023-08-13 12:23:31,0.827s,PASSED
+,,,,,,,
+Test Cases/Mobile/SM-Login/SM-LOG06,,,,2023-08-13 12:23:31,2023-08-13 12:23:51,20.110s,PASSED
+"startApplication(""C:\Users\rizky\Downloads\DemoAppV2.apk"", true)",,,,2023-08-13 12:23:32,2023-08-13 12:23:42,10.703s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - Login/android.widget.TextView - Login Here""), 3)",,,,2023-08-13 12:23:42,2023-08-13 12:23:45,2.552s,PASSED
+"setText(findTestObject(""Object Repository/Mobile - Login/android.widget.EditText""), ""isya.katalon@gmail.com"", 3)",,,,2023-08-13 12:23:45,2023-08-13 12:23:46,1.740s,PASSED
+"setText(findTestObject(""Object Repository/Mobile - Login/android.widget.EditText (1)""), """", 3)",,,,2023-08-13 12:23:47,2023-08-13 12:23:48,1.551s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - Login/android.widget.TextView - Login""), 3)",,,,2023-08-13 12:23:48,2023-08-13 12:23:49,0.926s,PASSED
+"getText(findTestObject(""Mobile - Login/android.widget.TextView - Invalid Credential""), 3)",,,,2023-08-13 12:23:49,2023-08-13 12:23:50,1.248s,PASSED
+takeScreenshot(),,,,2023-08-13 12:23:50,2023-08-13 12:23:51,0.530s,PASSED
+closeApplication(),,,,2023-08-13 12:23:51,2023-08-13 12:23:51,0.652s,PASSED
+,,,,,,,
+Test Cases/Mobile/SM-Login/SM-LOG10,,,,2023-08-13 12:23:51,2023-08-13 12:24:12,20.695s,PASSED
+"startApplication(""C:\Users\rizky\Downloads\DemoAppV2.apk"", true)",,,,2023-08-13 12:23:52,2023-08-13 12:24:02,10.351s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - Login/android.widget.TextView - Login Here""), 3)",,,,2023-08-13 12:24:02,2023-08-13 12:24:05,3.308s,PASSED
+"setText(findTestObject(""Object Repository/Mobile - Login/android.widget.EditText""), ""@gmail"", 3)",,,,2023-08-13 12:24:05,2023-08-13 12:24:07,1.922s,PASSED
+"setText(findTestObject(""Object Repository/Mobile - Login/android.widget.EditText (1)""), ""password"", 3)",,,,2023-08-13 12:24:07,2023-08-13 12:24:09,1.577s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - Login/android.widget.TextView - Login""), 3)",,,,2023-08-13 12:24:09,2023-08-13 12:24:10,1.227s,PASSED
+"getText(findTestObject(""Mobile - Login/android.widget.TextView - Invalid Credential""), 3)",,,,2023-08-13 12:24:10,2023-08-13 12:24:11,1.004s,PASSED
+takeScreenshot(),,,,2023-08-13 12:24:11,2023-08-13 12:24:11,0.381s,PASSED
+closeApplication(),,,,2023-08-13 12:24:11,2023-08-13 12:24:12,0.763s,PASSED
+,,,,,,,
+Test Cases/Mobile/SM-Login/SM-LOG11,,,,2023-08-13 12:24:12,2023-08-13 12:24:32,19.550s,PASSED
+"startApplication(""C:\Users\rizky\Downloads\DemoAppV2.apk"", true)",,,,2023-08-13 12:24:12,2023-08-13 12:24:23,10.354s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - Login/android.widget.TextView - Login Here""), 3)",,,,2023-08-13 12:24:23,2023-08-13 12:24:25,2.493s,PASSED
+"setText(findTestObject(""Object Repository/Mobile - Login/android.widget.EditText""), ""isya.katalon@"", 3)",,,,2023-08-13 12:24:25,2023-08-13 12:24:27,1.638s,PASSED
+"setText(findTestObject(""Object Repository/Mobile - Login/android.widget.EditText (1)""), ""password"", 3)",,,,2023-08-13 12:24:27,2023-08-13 12:24:28,1.589s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - Login/android.widget.TextView - Login""), 3)",,,,2023-08-13 12:24:28,2023-08-13 12:24:30,1.208s,PASSED
+"getText(findTestObject(""Mobile - Login/android.widget.TextView - Invalid Credential""), 3)",,,,2023-08-13 12:24:30,2023-08-13 12:24:31,0.993s,PASSED
+takeScreenshot(),,,,2023-08-13 12:24:31,2023-08-13 12:24:31,0.362s,PASSED
+closeApplication(),,,,2023-08-13 12:24:31,2023-08-13 12:24:32,0.708s,PASSED
+,,,,,,,
+Test Cases/Mobile/SM-Login/SM-LOG12,,,,2023-08-13 12:24:32,2023-08-13 12:24:51,19.361s,PASSED
+"startApplication(""C:\Users\rizky\Downloads\DemoAppV2.apk"", true)",,,,2023-08-13 12:24:32,2023-08-13 12:24:42,10.061s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - Login/android.widget.TextView - Login Here""), 3)",,,,2023-08-13 12:24:42,2023-08-13 12:24:44,2.472s,PASSED
+"setText(findTestObject(""Object Repository/Mobile - Login/android.widget.EditText""), ""isya.katalon@gmail@"", 3)",,,,2023-08-13 12:24:44,2023-08-13 12:24:46,1.735s,PASSED
+"setText(findTestObject(""Object Repository/Mobile - Login/android.widget.EditText (1)""), ""password"", 3)",,,,2023-08-13 12:24:46,2023-08-13 12:24:48,1.511s,PASSED
+"tap(findTestObject(""Object Repository/Mobile - Login/android.widget.TextView - Login""), 3)",,,,2023-08-13 12:24:48,2023-08-13 12:24:49,1.186s,PASSED
+"getText(findTestObject(""Mobile - Login/android.widget.TextView - Invalid Credential""), 3)",,,,2023-08-13 12:24:49,2023-08-13 12:24:50,1.046s,PASSED
+takeScreenshot(),,,,2023-08-13 12:24:50,2023-08-13 12:24:50,0.503s,PASSED
+closeApplication(),,,,2023-08-13 12:24:50,2023-08-13 12:24:51,0.693s,PASSED

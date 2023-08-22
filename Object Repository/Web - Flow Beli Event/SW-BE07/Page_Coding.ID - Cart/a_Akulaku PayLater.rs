@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Akulaku PayLater</name>
+   <tag></tag>
+   <elementGuidId>878219f1-da21-41b1-8b83-c0c31a83e779</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='application']/div/div/div[9]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(9) > a.list</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0835cdde-200b-4845-9e1a-8398ddd88786</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>list</value>
+      <webElementGuid>16d20d06-6b43-4a78-89a6-df99ba648995</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>list-item</value>
+      <webElementGuid>c884aa18-11f9-4735-989d-3d086c2d42cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#/akulaku</value>
+      <webElementGuid>7d50ee6a-2913-409c-be19-1a6d080c6544</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Akulaku PayLater</value>
+      <webElementGuid>887015e0-4a1a-44e1-b791-4dc5e77d4c26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;application&quot;)/div[@class=&quot;page-container scroll&quot;]/div[@class=&quot;payment-container-list&quot;]/div[9]/a[@class=&quot;list&quot;]</value>
+      <webElementGuid>67727e1a-2e38-41bd-93af-cd2ccbe28d07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/iframe_concat(id(, , snap-midtrans, , ))_po_7be560</value>
+      <webElementGuid>8483900e-868a-45da-abd9-23daa2371b5d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='application']/div/div/div[9]/a</value>
+      <webElementGuid>39c4e2cd-4d24-476e-ae12-bd62659c6324</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Indomaret'])[1]/following::a[1]</value>
+      <webElementGuid>938e3c16-57b6-43a6-af94-d10cfabf6c45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Danamon Online Banking'])[1]/following::a[2]</value>
+      <webElementGuid>7a4111f7-544d-464e-b5d3-c9d146aff8dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EN'])[1]/preceding::a[1]</value>
+      <webElementGuid>36b214f3-4709-4bc4-8773-0831e6f14a70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#/akulaku')]</value>
+      <webElementGuid>1cf28c67-e1dc-47e6-9fe0-c20856178852</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/a</value>
+      <webElementGuid>f95e1e33-4bcf-4e9a-a5d8-f2fc62b92061</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#/akulaku' and (text() = 'Akulaku PayLater' or . = 'Akulaku PayLater')]</value>
+      <webElementGuid>908df9a5-5e19-4616-a692-892a1a68d062</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

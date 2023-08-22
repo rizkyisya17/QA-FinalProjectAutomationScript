@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Indomaret</name>
+   <tag></tag>
+   <elementGuidId>693bf38d-0984-4232-9480-82445534defd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='application']/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.title-text.text-actionable-bold</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>947d1624-e802-4da5-95e3-ee61070ac7b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title-text text-actionable-bold</value>
+      <webElementGuid>3fb5faff-1e70-4c37-9c1c-2afc3802fa17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Indomaret</value>
+      <webElementGuid>b2f16b6f-c132-4272-9038-7afa59000e6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;application&quot;)/div[@class=&quot;page-container scroll&quot;]/div[@class=&quot;page-title&quot;]/span[@class=&quot;title-text text-actionable-bold&quot;]</value>
+      <webElementGuid>fabca23b-965c-4730-985f-78c6323680cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/iframe_concat(id(, , snap-midtrans, , ))_po_da1ce1</value>
+      <webElementGuid>cf9fa3f4-8fac-4cc8-919d-842a45b40417</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='application']/div/div/span</value>
+      <webElementGuid>617d175b-18d6-484a-baf0-d7ab3d3b7cbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order details'])[1]/following::span[1]</value>
+      <webElementGuid>40e58435-a510-42f6-97b1-0024d16f19a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show barcode to the cashier or enter payment code on i.saku app.'])[1]/preceding::span[2]</value>
+      <webElementGuid>a9d276eb-9e7a-48ef-b7ce-ec2ea1096b7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment code'])[1]/preceding::span[2]</value>
+      <webElementGuid>373fa49a-2a7a-469f-81ef-a73928084ca4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Indomaret']/parent::*</value>
+      <webElementGuid>2d40bf42-a6b6-4777-b7b6-261d8a00685b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/span</value>
+      <webElementGuid>0d01d33c-c47a-47aa-ba7f-3839f07d2c8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Indomaret' or . = 'Indomaret')]</value>
+      <webElementGuid>d2b7bd31-7ad6-4cb9-aab3-8356ef0c21b6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

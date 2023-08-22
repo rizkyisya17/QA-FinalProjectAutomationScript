@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SM-LOGIN,,,,2023-08-10 07:38:08,2023-08-10 07:38:09,1.143s,FAILED
+,,,,,,,
+Test Cases/Mobile/SM-LOG01,,,,2023-08-10 07:38:09,2023-08-10 07:38:09,0.009s,FAILED
+"startApplication(""C:\Users\rizky\Downloads\DemoAppV2.apk"", true)",,,,2023-08-10 07:38:09,2023-08-10 07:38:09,0.003s,FAILED
+,,,,,,,
+Test Cases/Mobile/SM-LOG03,,,,2023-08-10 07:38:09,2023-08-10 07:38:09,0.010s,FAILED
+"startApplication(""C:\Users\rizky\Downloads\DemoAppV2.apk"", true)",,,,2023-08-10 07:38:09,2023-08-10 07:38:09,0.003s,FAILED
+,,,,,,,
+Test Cases/Mobile/SM-LOG04,,,,2023-08-10 07:38:09,2023-08-10 07:38:09,0.009s,FAILED
+"startApplication(""C:\Users\rizky\Downloads\DemoAppV2.apk"", true)",,,,2023-08-10 07:38:09,2023-08-10 07:38:09,0.003s,FAILED
+,,,,,,,
+Test Cases/Mobile/SM-LOG05,,,,2023-08-10 07:38:09,2023-08-10 07:38:09,0.007s,FAILED
+"startApplication(""C:\Users\rizky\Downloads\DemoAppV2.apk"", true)",,,,2023-08-10 07:38:09,2023-08-10 07:38:09,0.002s,FAILED
+,,,,,,,
+Test Cases/Mobile/SM-LOG06,,,,2023-08-10 07:38:09,2023-08-10 07:38:09,0.007s,FAILED
+"startApplication(""C:\Users\rizky\Downloads\DemoAppV2.apk"", true)",,,,2023-08-10 07:38:09,2023-08-10 07:38:09,0.003s,FAILED

@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SW-LOGIN,Chrome 115.0.0.0,,,2023-08-08 10:26:24,2023-08-08 10:27:12,48.341s,PASSED
+,,,,,,,
+Test Cases/Website/SW02 Login/SW-LOG01,Chrome 115.0.0.0,,,2023-08-08 10:26:24,2023-08-08 10:26:37,13.155s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 115.0.0.0,,,2023-08-08 10:26:24,2023-08-08 10:26:31,7.080s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,Maximize current window,,2023-08-08 10:26:31,2023-08-08 10:26:31,0.139s,PASSED
+"click(findTestObject(""Object Repository/Web - Login/Page_Be a Profressional Talent with Coding.ID/a_Masuk""))",Chrome 115.0.0.0,,,2023-08-08 10:26:31,2023-08-08 10:26:33,1.111s,PASSED
+"setText(findTestObject(""Object Repository/Web - Login/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email""), isya_katalon_email)",Chrome 115.0.0.0,,,2023-08-08 10:26:33,2023-08-08 10:26:34,1.165s,PASSED
+"setText(findTestObject(""Object Repository/Web - Login/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12""), isya_katalon_password)",Chrome 115.0.0.0,,,2023-08-08 10:26:34,2023-08-08 10:26:34,0.723s,PASSED
+"click(findTestObject(""Object Repository/Web - Login/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login""))",Chrome 115.0.0.0,,,2023-08-08 10:26:34,2023-08-08 10:26:36,1.233s,PASSED
+"click(findTestObject(""Object Repository/Web - Login/Page_Be a Profressional Talent with Coding.ID/i_Kontak_fas fa-user-alt""))",Chrome 115.0.0.0,,,2023-08-08 10:26:36,2023-08-08 10:26:36,0.752s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-08 10:26:36,2023-08-08 10:26:37,0.752s,PASSED
+,,,,,,,
+Test Cases/Website/SW02 Login/SW-LOG03,Chrome 115.0.0.0,,,2023-08-08 10:26:37,2023-08-08 10:26:45,7.721s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 115.0.0.0,,,2023-08-08 10:26:37,2023-08-08 10:26:40,2.326s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,Maximize current window,,2023-08-08 10:26:40,2023-08-08 10:26:40,0.160s,PASSED
+"click(findTestObject(""Object Repository/Web - Login/Page_Be a Profressional Talent with Coding.ID/a_Masuk""))",Chrome 115.0.0.0,,,2023-08-08 10:26:40,2023-08-08 10:26:41,0.770s,PASSED
+"setText(findTestObject(""Object Repository/Web - Login/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email""), ""isya.katalon17@gmail.com"")",Chrome 115.0.0.0,,,2023-08-08 10:26:41,2023-08-08 10:26:42,1.127s,PASSED
+"setText(findTestObject(""Object Repository/Web - Login/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12""), ""password17"")",Chrome 115.0.0.0,,,2023-08-08 10:26:42,2023-08-08 10:26:42,0.747s,PASSED
+"click(findTestObject(""Object Repository/Web - Login/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login""))",Chrome 115.0.0.0,,,2023-08-08 10:26:42,2023-08-08 10:26:44,1.031s,PASSED
+"verifyElementText(findTestObject(""Web - Login/Page_Masuk untuk dapatkan akses di Coding.ID/small_Email atau kata sandi salah""), ""Email atau kata sandi salah"")",Chrome 115.0.0.0,,,2023-08-08 10:26:44,2023-08-08 10:26:44,0.687s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-08 10:26:44,2023-08-08 10:26:45,0.722s,PASSED
+,,,,,,,
+Test Cases/Website/SW02 Login/SW-LOG04,Chrome 115.0.0.0,,,2023-08-08 10:26:45,2023-08-08 10:26:51,6.522s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 115.0.0.0,,,2023-08-08 10:26:45,2023-08-08 10:26:47,2.139s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,Maximize current window,,2023-08-08 10:26:47,2023-08-08 10:26:47,0.130s,PASSED
+"click(findTestObject(""Object Repository/Web - Login/Page_Be a Profressional Talent with Coding.ID/a_Masuk""))",Chrome 115.0.0.0,,,2023-08-08 10:26:47,2023-08-08 10:26:48,0.941s,PASSED
+"setText(findTestObject(""Object Repository/Web - Login/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email""), ""isya"")",Chrome 115.0.0.0,,,2023-08-08 10:26:48,2023-08-08 10:26:49,1.066s,PASSED
+"setText(findTestObject(""Web - Login/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12""), ""password"")",Chrome 115.0.0.0,,,2023-08-08 10:26:49,2023-08-08 10:26:50,0.739s,PASSED
+"click(findTestObject(""Object Repository/Web - Login/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login""))",Chrome 115.0.0.0,,,2023-08-08 10:26:50,2023-08-08 10:26:51,0.407s,PASSED
+"verifyMatch(getAttribute(findTestObject(""Object Repository/Web - Login/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email""), ""validationMessage""), ""Please include an '@' in the email address.*"", true)",Chrome 115.0.0.0,,,2023-08-08 10:26:51,2023-08-08 10:26:51,0.334s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-08 10:26:51,2023-08-08 10:26:51,0.606s,PASSED
+,,,,,,,
+Test Cases/Website/SW02 Login/SW-LOG05,Chrome 115.0.0.0,,,2023-08-08 10:26:51,2023-08-08 10:27:03,11.215s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 115.0.0.0,,,2023-08-08 10:26:52,2023-08-08 10:26:58,6.828s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,Maximize current window,,2023-08-08 10:26:58,2023-08-08 10:26:59,0.141s,PASSED
+"click(findTestObject(""Object Repository/Web - Login/Page_Be a Profressional Talent with Coding.ID/a_Masuk""))",Chrome 115.0.0.0,,,2023-08-08 10:26:59,2023-08-08 10:26:59,0.805s,PASSED
+"setText(findTestObject(""Object Repository/Web - Login/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email""), """")",Chrome 115.0.0.0,,,2023-08-08 10:26:59,2023-08-08 10:27:00,1.079s,PASSED
+"setText(findTestObject(""Web - Login/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12""), ""password"")",Chrome 115.0.0.0,,,2023-08-08 10:27:00,2023-08-08 10:27:01,0.763s,PASSED
+"click(findTestObject(""Object Repository/Web - Login/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login""))",Chrome 115.0.0.0,,,2023-08-08 10:27:01,2023-08-08 10:27:02,0.387s,PASSED
+"verifyEqual(getAttribute(findTestObject(""Object Repository/Web - Login/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email""), ""validationMessage""), ""Please fill out this field."")",Chrome 115.0.0.0,,,2023-08-08 10:27:02,2023-08-08 10:27:02,0.323s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-08 10:27:02,2023-08-08 10:27:03,0.766s,PASSED
+,,,,,,,
+Test Cases/Website/SW02 Login/SW-LOG06,Chrome 115.0.0.0,,,2023-08-08 10:27:03,2023-08-08 10:27:12,9.551s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 115.0.0.0,,,2023-08-08 10:27:03,2023-08-08 10:27:06,3.371s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,Maximize current window,,2023-08-08 10:27:06,2023-08-08 10:27:06,0.121s,PASSED
+"click(findTestObject(""Object Repository/Web - Login/Page_Be a Profressional Talent with Coding.ID/a_Masuk""))",Chrome 115.0.0.0,,,2023-08-08 10:27:06,2023-08-08 10:27:08,2.205s,PASSED
+"setText(findTestObject(""Object Repository/Web - Login/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email""), ""isya.katalon@gmail.com"")",Chrome 115.0.0.0,,,2023-08-08 10:27:08,2023-08-08 10:27:10,1.531s,PASSED
+"setText(findTestObject(""Web - Login/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12""), """")",Chrome 115.0.0.0,,,2023-08-08 10:27:10,2023-08-08 10:27:11,0.797s,PASSED
+"click(findTestObject(""Object Repository/Web - Login/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login""))",Chrome 115.0.0.0,,,2023-08-08 10:27:11,2023-08-08 10:27:11,0.343s,PASSED
+"verifyEqual(getAttribute(findTestObject(""Web - Login/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12""), ""validationMessage""), ""Please fill out this field."")",Chrome 115.0.0.0,,,2023-08-08 10:27:11,2023-08-08 10:27:11,0.300s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-08 10:27:11,2023-08-08 10:27:12,0.763s,PASSED

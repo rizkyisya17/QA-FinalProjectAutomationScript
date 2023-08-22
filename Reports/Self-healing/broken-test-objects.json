@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Web - Login/Page_Be a Profressional Talent with Coding.ID/i_Kontak_fas fa-user-alt",
+      "brokenLocator": "//div[@id\u003d\u0027navbar-collapse-1\u0027]/ul/li[7]/a/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Web - Login/Page_Be a Profressional Talent with Coding.ID/i_Kontak_fas fa-user-alt_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Invoice/h5_Invoice                            EVN10_1958af",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Back to Event\u0027])[1]/following::h5[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Pembelian Saya\u0027])[1]/following::h5[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Invoice/h5_Invoice                            EVN10_1958af_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Web - Change Profile/Page_Coding.ID - Dashboard/input_Fullname_name",
+      "brokenLocator": "//input[@name\u003d\u0027\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@name\u003d\u0027name\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Web - Change Profile/Page_Coding.ID - Dashboard/input_Fullname_name_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Web - Flow Beli Event/SW-BE06/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket",
+      "brokenLocator": "//a[@id\u003d\u0027addCart\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Detik\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Web - Flow Beli Event/SW-BE06/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket_neighbor.png"
+    }
+  ]
+}

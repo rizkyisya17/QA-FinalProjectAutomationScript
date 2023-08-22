@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDT SM-LOG Negative,,,,2023-08-15 22:14:51,2023-08-15 22:14:52,1.358s,FAILED
+,,,,,,,
+Test Cases/Mobile/SM-Login/SM-LOG (DDT Negative),,,,2023-08-15 22:14:51,2023-08-15 22:14:51,0.018s,FAILED
+"startApplication(""C:\Users\rizky\Downloads\DemoAppV2.apk"", true)",,,,2023-08-15 22:14:51,2023-08-15 22:14:51,0.006s,FAILED
+,,,,,,,
+Test Cases/Mobile/SM-Login/SM-LOG (DDT Negative),,,,2023-08-15 22:14:51,2023-08-15 22:14:51,0.012s,FAILED
+"startApplication(""C:\Users\rizky\Downloads\DemoAppV2.apk"", true)",,,,2023-08-15 22:14:51,2023-08-15 22:14:51,0.004s,FAILED
+,,,,,,,
+Test Cases/Mobile/SM-Login/SM-LOG (DDT Negative),,,,2023-08-15 22:14:52,2023-08-15 22:14:52,0.036s,FAILED
+"startApplication(""C:\Users\rizky\Downloads\DemoAppV2.apk"", true)",,,,2023-08-15 22:14:52,2023-08-15 22:14:52,0.008s,FAILED
+,,,,,,,
+Test Cases/Mobile/SM-Login/SM-LOG (DDT Negative),,,,2023-08-15 22:14:52,2023-08-15 22:14:52,0.022s,FAILED
+"startApplication(""C:\Users\rizky\Downloads\DemoAppV2.apk"", true)",,,,2023-08-15 22:14:52,2023-08-15 22:14:52,0.007s,FAILED
+,,,,,,,
+Test Cases/Mobile/SM-Login/SM-LOG (DDT Negative),,,,2023-08-15 22:14:52,2023-08-15 22:14:52,0.008s,FAILED
+"startApplication(""C:\Users\rizky\Downloads\DemoAppV2.apk"", true)",,,,2023-08-15 22:14:52,2023-08-15 22:14:52,0.004s,FAILED
+,,,,,,,
+Test Cases/Mobile/SM-Login/SM-LOG (DDT Negative),,,,2023-08-15 22:14:52,2023-08-15 22:14:52,0.013s,FAILED
+"startApplication(""C:\Users\rizky\Downloads\DemoAppV2.apk"", true)",,,,2023-08-15 22:14:52,2023-08-15 22:14:52,0.004s,FAILED
+,,,,,,,
+Test Cases/Mobile/SM-Login/SM-LOG (DDT Negative),,,,2023-08-15 22:14:52,2023-08-15 22:14:52,0.008s,FAILED
+"startApplication(""C:\Users\rizky\Downloads\DemoAppV2.apk"", true)",,,,2023-08-15 22:14:52,2023-08-15 22:14:52,0.003s,FAILED

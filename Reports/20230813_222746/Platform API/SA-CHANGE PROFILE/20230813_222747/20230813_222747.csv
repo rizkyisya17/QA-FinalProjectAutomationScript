@@ -1,0 +1,114 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SA-CHANGE PROFILE,,,,2023-08-13 22:27:49,2023-08-13 22:28:36,46.848s,FAILED
+,,,,,,,
+Test Cases/API/SA-Change Profile/SA-CP01,,,,2023-08-13 22:27:49,2023-08-13 22:27:50,1.405s,PASSED
+"Response = sendRequest(findTestObject(""API - Change Profile/SA-CP01""))",,,,2023-08-13 22:27:49,2023-08-13 22:27:50,1.137s,PASSED
+"ValueStatus = getElementPropertyValue(Response, ""status"")",,,,2023-08-13 22:27:50,2023-08-13 22:27:50,0.037s,PASSED
+"verifyEqual(ValueStatus, 200)",,,,2023-08-13 22:27:50,2023-08-13 22:27:50,0.028s,PASSED
+"ValueData = getElementPropertyValue(Response, ""data"")",,,,2023-08-13 22:27:50,2023-08-13 22:27:50,0.012s,PASSED
+"println(""status: "" + ValueStatus)",,,,2023-08-13 22:27:50,2023-08-13 22:27:50,0.002s,PASSED
+"println(""data: "" + ValueData)",,,,2023-08-13 22:27:50,2023-08-13 22:27:50,0.000s,PASSED
+,,,,,,,
+Test Cases/API/SA-Change Profile/SA-CP02,,,,2023-08-13 22:27:50,2023-08-13 22:27:52,1.947s,PASSED
+"Response = sendRequest(findTestObject(""API - Change Profile/SA-CP03""))",,,,2023-08-13 22:27:50,2023-08-13 22:27:52,1.748s,PASSED
+"ValueStatus = getElementPropertyValue(Response, ""status"")",,,,2023-08-13 22:27:52,2023-08-13 22:27:52,0.037s,PASSED
+"verifyEqual(ValueStatus, 200)",,,,2023-08-13 22:27:52,2023-08-13 22:27:52,0.003s,PASSED
+"ValueMessage = getElementPropertyValue(Response, ""message"")",,,,2023-08-13 22:27:52,2023-08-13 22:27:52,0.014s,PASSED
+"println(""status: "" + ValueStatus)",,,,2023-08-13 22:27:52,2023-08-13 22:27:52,0.001s,PASSED
+"println(""message: "" + ValueMessage)",,,,2023-08-13 22:27:52,2023-08-13 22:27:52,0.001s,PASSED
+,,,,,,,
+Test Cases/API/SA-Change Profile/SA-CP03,,,,2023-08-13 22:27:52,2023-08-13 22:27:54,1.965s,PASSED
+"Response = sendRequest(findTestObject(""API - Change Profile/SA-CP03""))",,,,2023-08-13 22:27:52,2023-08-13 22:27:54,1.764s,PASSED
+"ValueStatus = getElementPropertyValue(Response, ""status"")",,,,2023-08-13 22:27:54,2023-08-13 22:27:54,0.030s,PASSED
+"verifyEqual(ValueStatus, 200)",,,,2023-08-13 22:27:54,2023-08-13 22:27:54,0.005s,PASSED
+"ValueMessage = getElementPropertyValue(Response, ""message"")",,,,2023-08-13 22:27:54,2023-08-13 22:27:54,0.012s,PASSED
+"println(""status: "" + ValueStatus)",,,,2023-08-13 22:27:54,2023-08-13 22:27:54,0.001s,PASSED
+"println(""message "" + ValueMessage)",,,,2023-08-13 22:27:54,2023-08-13 22:27:54,0.000s,PASSED
+,,,,,,,
+Test Cases/API/SA-Change Profile/SA-CP04,,,,2023-08-13 22:27:54,2023-08-13 22:27:58,3.310s,PASSED
+"Response = sendRequest(findTestObject(""API - Change Profile/SA-CP04""))",,,,2023-08-13 22:27:54,2023-08-13 22:27:57,3.045s,PASSED
+"ValueStatus = getElementPropertyValue(Response, ""status"")",,,,2023-08-13 22:27:57,2023-08-13 22:27:58,0.086s,PASSED
+"verifyEqual(ValueStatus, 200)",,,,2023-08-13 22:27:58,2023-08-13 22:27:58,0.005s,PASSED
+"ValueMessage = getElementPropertyValue(Response, ""message"")",,,,2023-08-13 22:27:58,2023-08-13 22:27:58,0.024s,PASSED
+"println(""status: "" + ValueStatus)",,,,2023-08-13 22:27:58,2023-08-13 22:27:58,0.002s,PASSED
+"println(""message "" + ValueMessage)",,,,2023-08-13 22:27:58,2023-08-13 22:27:58,0.001s,PASSED
+,,,,,,,
+Test Cases/API/SA-Change Profile/SA-CP05,,,,2023-08-13 22:28:08,2023-08-13 22:28:11,3.288s,FAILED
+"Response = sendRequest(findTestObject(""API - Change Profile/SA-CP05""))",,,,2023-08-13 22:28:08,2023-08-13 22:28:11,3.218s,PASSED
+"ValueStatus = getElementPropertyValue(Response, ""status"")",,,,2023-08-13 22:28:11,2023-08-13 22:28:11,0.049s,PASSED
+"verifyEqual(ValueStatus, 400)",,,,2023-08-13 22:28:11,2023-08-13 22:28:11,0.007s,FAILED
+,,,,,,,
+Test Cases/API/SA-Change Profile/SA-CP06,,,,2023-08-13 22:28:11,2023-08-13 22:28:12,0.317s,PASSED
+"Response = sendRequest(findTestObject(""API - Change Profile/SA-CP06""))",,,,2023-08-13 22:28:12,2023-08-13 22:28:12,0.128s,PASSED
+"ValueStatus = getElementPropertyValue(Response, ""status"")",,,,2023-08-13 22:28:12,2023-08-13 22:28:12,0.009s,PASSED
+"verifyEqual(ValueStatus, 200)",,,,2023-08-13 22:28:12,2023-08-13 22:28:12,0.003s,PASSED
+"ValueMessage = getElementPropertyValue(Response, ""message"")",,,,2023-08-13 22:28:12,2023-08-13 22:28:12,0.013s,PASSED
+"println(""status: "" + ValueStatus)",,,,2023-08-13 22:28:12,2023-08-13 22:28:12,0.000s,PASSED
+"println(""message "" + ValueMessage)",,,,2023-08-13 22:28:12,2023-08-13 22:28:12,0.001s,PASSED
+,,,,,,,
+Test Cases/API/SA-Change Profile/SA-CP07,,,,2023-08-13 22:28:12,2023-08-13 22:28:13,0.219s,FAILED
+"Response = sendRequest(findTestObject(""API - Change Profile/SA-CP07""))",,,,2023-08-13 22:28:12,2023-08-13 22:28:13,0.142s,PASSED
+"ValueStatus = getElementPropertyValue(Response, ""status"")",,,,2023-08-13 22:28:13,2023-08-13 22:28:13,0.056s,PASSED
+"verifyEqual(ValueStatus, 400)",,,,2023-08-13 22:28:13,2023-08-13 22:28:13,0.012s,FAILED
+,,,,,,,
+Test Cases/API/SA-Change Profile/SA-CP08,,,,2023-08-13 22:28:13,2023-08-13 22:28:14,0.216s,FAILED
+"Response = sendRequest(findTestObject(""API - Change Profile/SA-CP08""))",,,,2023-08-13 22:28:13,2023-08-13 22:28:14,0.171s,PASSED
+"ValueStatus = getElementPropertyValue(Response, ""status"")",,,,2023-08-13 22:28:14,2023-08-13 22:28:14,0.031s,PASSED
+"verifyEqual(ValueStatus, 400)",,,,2023-08-13 22:28:14,2023-08-13 22:28:14,0.005s,FAILED
+,,,,,,,
+Test Cases/API/SA-Change Profile/SA-CP09,,,,2023-08-13 22:28:14,2023-08-13 22:28:14,0.157s,FAILED
+"Response = sendRequest(findTestObject(""API - Change Profile/SA-CP09""))",,,,2023-08-13 22:28:14,2023-08-13 22:28:14,0.141s,PASSED
+"ValueStatus = getElementPropertyValue(Response, ""status"")",,,,2023-08-13 22:28:14,2023-08-13 22:28:14,0.009s,PASSED
+"verifyEqual(ValueStatus, 400)",,,,2023-08-13 22:28:14,2023-08-13 22:28:14,0.003s,FAILED
+,,,,,,,
+Test Cases/API/SA-Change Profile/SA-CP10,,,,2023-08-13 22:28:15,2023-08-13 22:28:15,0.178s,FAILED
+"Response = sendRequest(findTestObject(""API - Change Profile/SA-CP10""))",,,,2023-08-13 22:28:15,2023-08-13 22:28:15,0.145s,PASSED
+"ValueStatus = getElementPropertyValue(Response, ""status"")",,,,2023-08-13 22:28:15,2023-08-13 22:28:15,0.027s,PASSED
+"verifyEqual(ValueStatus, 400)",,,,2023-08-13 22:28:15,2023-08-13 22:28:15,0.002s,FAILED
+,,,,,,,
+Test Cases/API/SA-Change Profile/SA-CP11,,,,2023-08-13 22:28:16,2023-08-13 22:28:16,0.172s,FAILED
+"Response = sendRequest(findTestObject(""API - Change Profile/SA-CP11""))",,,,2023-08-13 22:28:16,2023-08-13 22:28:16,0.152s,PASSED
+"ValueStatus = getElementPropertyValue(Response, ""status"")",,,,2023-08-13 22:28:16,2023-08-13 22:28:16,0.014s,PASSED
+"verifyEqual(ValueStatus, 400)",,,,2023-08-13 22:28:16,2023-08-13 22:28:16,0.002s,FAILED
+,,,,,,,
+Test Cases/API/SA-Change Profile/SA-CP12,,,,2023-08-13 22:28:22,2023-08-13 22:28:23,1.745s,FAILED
+"Response = sendRequest(findTestObject(""API - Change Profile/SA-CP12""))",,,,2023-08-13 22:28:22,2023-08-13 22:28:23,1.711s,PASSED
+"ValueStatus = getElementPropertyValue(Response, ""status"")",,,,2023-08-13 22:28:23,2023-08-13 22:28:23,0.029s,PASSED
+"verifyEqual(ValueStatus, 400)",,,,2023-08-13 22:28:23,2023-08-13 22:28:23,0.002s,FAILED
+,,,,,,,
+Test Cases/API/SA-Change Profile/SA-CP13,,,,2023-08-13 22:28:29,2023-08-13 22:28:31,1.915s,FAILED
+"Response = sendRequest(findTestObject(""API - Change Profile/SA-CP13""))",,,,2023-08-13 22:28:29,2023-08-13 22:28:31,1.868s,PASSED
+"ValueStatus = getElementPropertyValue(Response, ""status"")",,,,2023-08-13 22:28:31,2023-08-13 22:28:31,0.034s,PASSED
+"verifyEqual(ValueStatus, 400)",,,,2023-08-13 22:28:31,2023-08-13 22:28:31,0.006s,FAILED
+,,,,,,,
+Test Cases/API/SA-Change Profile/SA-CP14,,,,2023-08-13 22:28:32,2023-08-13 22:28:32,0.212s,FAILED
+"Response = sendRequest(findTestObject(""API - Change Profile/SA-CP14""))",,,,2023-08-13 22:28:32,2023-08-13 22:28:32,0.162s,PASSED
+"ValueStatus = getElementPropertyValue(Response, ""status"")",,,,2023-08-13 22:28:32,2023-08-13 22:28:32,0.038s,PASSED
+"verifyEqual(ValueStatus, 400)",,,,2023-08-13 22:28:32,2023-08-13 22:28:32,0.004s,FAILED
+,,,,,,,
+Test Cases/API/SA-Change Profile/SA-CP15,,,,2023-08-13 22:28:33,2023-08-13 22:28:33,0.167s,FAILED
+"Response = sendRequest(findTestObject(""API - Change Profile/SA-CP15""))",,,,2023-08-13 22:28:33,2023-08-13 22:28:33,0.145s,PASSED
+"ValueStatus = getElementPropertyValue(Response, ""status"")",,,,2023-08-13 22:28:33,2023-08-13 22:28:33,0.011s,PASSED
+"verifyEqual(ValueStatus, 400)",,,,2023-08-13 22:28:33,2023-08-13 22:28:33,0.002s,FAILED
+,,,,,,,
+Test Cases/API/SA-Change Profile/SA-CP16,,,,2023-08-13 22:28:34,2023-08-13 22:28:34,0.162s,FAILED
+"Response = sendRequest(findTestObject(""API - Change Profile/SA-CP15""))",,,,2023-08-13 22:28:34,2023-08-13 22:28:34,0.144s,PASSED
+"ValueStatus = getElementPropertyValue(Response, ""status"")",,,,2023-08-13 22:28:34,2023-08-13 22:28:34,0.011s,PASSED
+"verifyEqual(ValueStatus, 400)",,,,2023-08-13 22:28:34,2023-08-13 22:28:34,0.001s,FAILED
+,,,,,,,
+Test Cases/API/SA-Change Profile/SA-CP17,,,,2023-08-13 22:28:35,2023-08-13 22:28:35,0.206s,FAILED
+"Response = sendRequest(findTestObject(""API - Change Profile/SA-CP17""))",,,,2023-08-13 22:28:35,2023-08-13 22:28:35,0.154s,PASSED
+"ValueStatus = getElementPropertyValue(Response, ""status"")",,,,2023-08-13 22:28:35,2023-08-13 22:28:35,0.036s,PASSED
+"verifyEqual(ValueStatus, 400)",,,,2023-08-13 22:28:35,2023-08-13 22:28:35,0.006s,FAILED
+,,,,,,,
+Test Cases/API/SA-Change Profile/SA-CP18,,,,2023-08-13 22:28:35,2023-08-13 22:28:35,0.436s,PASSED
+"Response = sendRequest(findTestObject(""API - Change Profile/SA-CP18""))",,,,2023-08-13 22:28:35,2023-08-13 22:28:35,0.273s,PASSED
+StatusCode = getResponseStatusCode(Response),,,,2023-08-13 22:28:35,2023-08-13 22:28:35,0.006s,PASSED
+"verifyEqual(StatusCode, 405)",,,,2023-08-13 22:28:35,2023-08-13 22:28:35,0.002s,PASSED
+"println(""status: "" + StatusCode)",,,,2023-08-13 22:28:35,2023-08-13 22:28:35,0.000s,PASSED
+,,,,,,,
+Test Cases/API/SA-Change Profile/SA-CP19,,,,2023-08-13 22:28:35,2023-08-13 22:28:36,0.327s,PASSED
+"Response = sendRequest(findTestObject(""API - Change Profile/SA-CP19""))",,,,2023-08-13 22:28:35,2023-08-13 22:28:36,0.164s,PASSED
+StatusCode = getResponseStatusCode(Response),,,,2023-08-13 22:28:36,2023-08-13 22:28:36,0.001s,PASSED
+"verifyEqual(StatusCode, 405)",,,,2023-08-13 22:28:36,2023-08-13 22:28:36,0.004s,PASSED
+"println(""status: "" + StatusCode)",,,,2023-08-13 22:28:36,2023-08-13 22:28:36,0.000s,PASSED

@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SW-Flow Beli Event" time="277.655" tests="11" failures="0" errors="0">
+   <testsuite name="SW-Flow Beli Event" tests="11" failures="0" errors="0" time="277.655" skipped="0" timestamp="2023-08-13 12:08:06" hostname="rizky - rizkyisya" id="Test Suites/Platform Website/SW-Flow Beli Event">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805"/>
+         <property name="logFiles" value="C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903320154.png, C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903346051.png, C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903372302.png, C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903402999.png, C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903433429.png, C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903454425.png, C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903485740.png, C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903517126.png, C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903534894.png, C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903551311.png, C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903563700.png"/>
+         <property name="hostName" value="rizky - rizkyisya"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="10a4695170d2bfa91c9174abd2401bf9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Website/SW-Flow Beli Event/SW-BE01 (dummy1)" time="33.922" classname="Test Cases/Website/SW-Flow Beli Event/SW-BE01 (dummy1)" status="PASSED">
+         <system-out><![CDATA[2023-08-13 12:08:07 - [TEST_CASE][PASSED] - Test Cases/Website/SW-Flow Beli Event/SW-BE01 (dummy1): Test Cases/Website/SW-Flow Beli Event/SW-BE01 (dummy1)
+
+2023-08-13 12:08:07 - [TEST_STEP][PASSED] - openBrowser("https://demo-app.online/"): Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:08:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-13 12:08:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-13 12:08:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:08:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-13 12:08:14 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-13 12:08:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE01/Page_Be a Profressional Talent with Coding.ID/a_Masuk")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:08:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:08:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE01/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email"), "vasif72009@weishu8.com"): Text 'vasif72009@weishu8.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:08:16 - [MESSAGE][PASSED] - Text 'vasif72009@weishu8.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:08:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE01/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12"), "password"): Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:08:17 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:08:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE01/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:08:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:08:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE01/Page_Be a Profressional Talent with Coding.ID/a_Events")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Be a Profressional Talent with Coding.ID/a_Events' is clicked on
+
+2023-08-13 12:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Be a Profressional Talent with Coding.ID/a_Events' is clicked on
+
+2023-08-13 12:08:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE01/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14' is clicked on
+
+2023-08-13 12:08:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14' is clicked on
+
+2023-08-13 12:08:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE01/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket' is clicked on
+
+2023-08-13 12:08:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket' is clicked on
+
+2023-08-13 12:08:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE01/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya' is clicked on
+
+2023-08-13 12:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya' is clicked on
+
+2023-08-13 12:08:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/button_Checkout")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/button_Checkout' is clicked on
+
+2023-08-13 12:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/button_Checkout' is clicked on
+
+2023-08-13 12:08:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method' is clicked on
+
+2023-08-13 12:08:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method' is clicked on
+
+2023-08-13 12:08:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/button_Confirm")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/button_Confirm' is clicked on
+
+2023-08-13 12:08:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/button_Confirm' is clicked on
+
+2023-08-13 12:08:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/a_Bank transfer1")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/a_Bank transfer1' is clicked on
+
+2023-08-13 12:08:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/a_Bank transfer1' is clicked on
+
+2023-08-13 12:08:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/div_BNI")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/div_BNI' is clicked on
+
+2023-08-13 12:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/div_BNI' is clicked on
+
+2023-08-13 12:08:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-08-13 12:08:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-13 12:08:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/button_Back to merchant")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/button_Back to merchant' is clicked on
+
+2023-08-13 12:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/button_Back to merchant' is clicked on
+
+2023-08-13 12:08:37 - [TEST_STEP][PASSED] - getText(findTestObject("Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Invoice/h5_Invoice                            EVN10_1958af")): Text of object 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Invoice/h5_Invoice                            EVN10_1958af' is: 'Invoice #EVN13082300044'
+
+2023-08-13 12:08:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Invoice/h5_Invoice                            EVN10_1958af' is: 'Invoice #EVN13082300044'
+
+2023-08-13 12:08:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Invoice/span_PAYMENT IS BEING PROCESSED"), "PAYMENT IS BEING PROCESSED"): Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Invoice/span_PAYMENT IS BEING PROCESSED' are matched.
+
+2023-08-13 12:08:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Invoice/span_PAYMENT IS BEING PROCESSED' are matched.
+
+2023-08-13 12:08:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-08-13 12:08:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903320154.png]]
+
+2023-08-13 12:08:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-13 12:08:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Website/SW-Flow Beli Event/SW-BE02 (dummy1)" time="25.898" classname="Test Cases/Website/SW-Flow Beli Event/SW-BE02 (dummy1)" status="PASSED">
+         <system-out><![CDATA[2023-08-13 12:08:41 - [TEST_CASE][PASSED] - Test Cases/Website/SW-Flow Beli Event/SW-BE02 (dummy1): Test Cases/Website/SW-Flow Beli Event/SW-BE02 (dummy1)
+
+2023-08-13 12:08:41 - [TEST_STEP][PASSED] - openBrowser("https://demo-app.online/"): Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:08:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-13 12:08:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-13 12:08:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:08:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-13 12:08:46 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-13 12:08:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE02/Page_Be a Profressional Talent with Coding.ID/a_Masuk")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:08:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE02/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email"), "vasif72009@weishu8.com"): Text 'vasif72009@weishu8.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:08:48 - [MESSAGE][PASSED] - Text 'vasif72009@weishu8.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:08:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE02/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12"), "password"): Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:08:49 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:08:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE02/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:08:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE02/Page_Be a Profressional Talent with Coding.ID/a_Events")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Be a Profressional Talent with Coding.ID/a_Events' is clicked on
+
+2023-08-13 12:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Be a Profressional Talent with Coding.ID/a_Events' is clicked on
+
+2023-08-13 12:08:51 - [TEST_STEP][PASSED] - click(findTestObject("Web - Flow Beli Event/Capture/div_Day 4 Workshop   Wi")): Object: 'Object Repository/Web - Flow Beli Event/Capture/div_Day 4 Workshop   Wi' is clicked on
+
+2023-08-13 12:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/Capture/div_Day 4 Workshop   Wi' is clicked on
+
+2023-08-13 12:08:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE02/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket' is clicked on
+
+2023-08-13 12:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket' is clicked on
+
+2023-08-13 12:08:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE02/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya' is clicked on
+
+2023-08-13 12:08:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya' is clicked on
+
+2023-08-13 12:08:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/button_Checkout")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/button_Checkout' is clicked on
+
+2023-08-13 12:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/button_Checkout' is clicked on
+
+2023-08-13 12:08:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method' is clicked on
+
+2023-08-13 12:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method' is clicked on
+
+2023-08-13 12:08:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/button_Confirm")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/button_Confirm' is clicked on
+
+2023-08-13 12:08:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/button_Confirm' is clicked on
+
+2023-08-13 12:08:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/a_ShopeePay")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/a_ShopeePay' is clicked on
+
+2023-08-13 12:08:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/a_ShopeePay' is clicked on
+
+2023-08-13 12:08:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/span_ShopeePay"), "ShopeePay"): Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/span_ShopeePay' are matched.
+
+2023-08-13 12:08:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/span_ShopeePay' are matched.
+
+2023-08-13 12:08:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-13 12:09:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-13 12:09:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/button_Back to merchant")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/button_Back to merchant' is clicked on
+
+2023-08-13 12:09:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/button_Back to merchant' is clicked on
+
+2023-08-13 12:09:03 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Invoice/h5_Invoice                            EVN11_ed9f16")): Text of object 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Invoice/h5_Invoice                            EVN11_ed9f16' is: 'Invoice #EVN13082300045'
+
+2023-08-13 12:09:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Invoice/h5_Invoice                            EVN11_ed9f16' is: 'Invoice #EVN13082300045'
+
+2023-08-13 12:09:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Invoice/span_PAYMENT IS BEING PROCESSED"), "PAYMENT IS BEING PROCESSED"): Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Invoice/span_PAYMENT IS BEING PROCESSED' are matched.
+
+2023-08-13 12:09:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Invoice/span_PAYMENT IS BEING PROCESSED' are matched.
+
+2023-08-13 12:09:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-08-13 12:09:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903346051.png]]
+
+2023-08-13 12:09:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-13 12:09:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Website/SW-Flow Beli Event/SW-BE03 (dummy2)" time="26.223" classname="Test Cases/Website/SW-Flow Beli Event/SW-BE03 (dummy2)" status="PASSED">
+         <system-out><![CDATA[2023-08-13 12:09:06 - [TEST_CASE][PASSED] - Test Cases/Website/SW-Flow Beli Event/SW-BE03 (dummy2): Test Cases/Website/SW-Flow Beli Event/SW-BE03 (dummy2)
+
+2023-08-13 12:09:07 - [TEST_STEP][PASSED] - openBrowser("https://demo-app.online/"): Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:09:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-13 12:09:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-13 12:09:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:09:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-13 12:09:11 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-13 12:09:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Be a Profressional Talent with Coding.ID/a_Masuk")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:09:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email"), "kelageg243@v1zw.com"): Text 'kelageg243@v1zw.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:09:13 - [MESSAGE][PASSED] - Text 'kelageg243@v1zw.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:09:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12"), "password"): Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:09:14 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:09:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:09:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Be a Profressional Talent with Coding.ID/a_Events")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Be a Profressional Talent with Coding.ID/a_Events' is clicked on
+
+2023-08-13 12:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Be a Profressional Talent with Coding.ID/a_Events' is clicked on
+
+2023-08-13 12:09:16 - [TEST_STEP][PASSED] - click(findTestObject("Web - Flow Beli Event/Capture/div_Day 4 Workshop   Wi")): Object: 'Object Repository/Web - Flow Beli Event/Capture/div_Day 4 Workshop   Wi' is clicked on
+
+2023-08-13 12:09:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/Capture/div_Day 4 Workshop   Wi' is clicked on
+
+2023-08-13 12:09:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket' is clicked on
+
+2023-08-13 12:09:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket' is clicked on
+
+2023-08-13 12:09:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya' is clicked on
+
+2023-08-13 12:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya' is clicked on
+
+2023-08-13 12:09:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Checkout")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Checkout' is clicked on
+
+2023-08-13 12:09:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Checkout' is clicked on
+
+2023-08-13 12:09:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method' is clicked on
+
+2023-08-13 12:09:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method' is clicked on
+
+2023-08-13 12:09:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Confirm")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Confirm' is clicked on
+
+2023-08-13 12:09:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Confirm' is clicked on
+
+2023-08-13 12:09:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/a_BCA KlikPay")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/a_BCA KlikPay' is clicked on
+
+2023-08-13 12:09:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/a_BCA KlikPay' is clicked on
+
+2023-08-13 12:09:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/span_BCA KlikPay"), "BCA KlikPay"): Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/span_BCA KlikPay' are matched.
+
+2023-08-13 12:09:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/span_BCA KlikPay' are matched.
+
+2023-08-13 12:09:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Pay now")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Pay now' is clicked on
+
+2023-08-13 12:09:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Pay now' is clicked on
+
+2023-08-13 12:09:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Midtrans Mock Payment Provider/button_Bayar")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Midtrans Mock Payment Provider/button_Bayar' is clicked on
+
+2023-08-13 12:09:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Midtrans Mock Payment Provider/button_Bayar' is clicked on
+
+2023-08-13 12:09:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Midtrans Mock Payment Provider/div_Transaksi Sukses"), "Transaksi Sukses"): Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Midtrans Mock Payment Provider/div_Transaksi Sukses' are matched.
+
+2023-08-13 12:09:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Midtrans Mock Payment Provider/div_Transaksi Sukses' are matched.
+
+2023-08-13 12:09:31 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-08-13 12:09:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903372302.png]]
+
+2023-08-13 12:09:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-13 12:09:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Website/SW-Flow Beli Event/SW-BE04 (dummy3)" time="30.546" classname="Test Cases/Website/SW-Flow Beli Event/SW-BE04 (dummy3)" status="PASSED">
+         <system-out><![CDATA[2023-08-13 12:09:33 - [TEST_CASE][PASSED] - Test Cases/Website/SW-Flow Beli Event/SW-BE04 (dummy3): Test Cases/Website/SW-Flow Beli Event/SW-BE04 (dummy3)
+
+2023-08-13 12:09:34 - [TEST_STEP][PASSED] - openBrowser("https://demo-app.online/"): Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:09:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-13 12:09:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-13 12:09:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:09:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-13 12:09:40 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-13 12:09:40 - [TEST_STEP][PASSED] - click(findTestObject("Web - Flow Beli Event/SW-BE02/Page_Be a Profressional Talent with Coding.ID/a_Masuk")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:09:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE02/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:09:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE04/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email"), "woyis90672@weishu8.com"): Text 'woyis90672@weishu8.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:09:42 - [MESSAGE][PASSED] - Text 'woyis90672@weishu8.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:09:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE04/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12"), "password"): Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:09:43 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:09:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE04/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:09:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:09:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE04/Page_Be a Profressional Talent with Coding.ID/a_Events")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Be a Profressional Talent with Coding.ID/a_Events' is clicked on
+
+2023-08-13 12:09:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Be a Profressional Talent with Coding.ID/a_Events' is clicked on
+
+2023-08-13 12:09:45 - [TEST_STEP][PASSED] - click(findTestObject("Web - Flow Beli Event/SW-BE04/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14' is clicked on
+
+2023-08-13 12:09:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14' is clicked on
+
+2023-08-13 12:09:46 - [TEST_STEP][PASSED] - click(findTestObject("Web - Flow Beli Event/SW-BE04/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket' is clicked on
+
+2023-08-13 12:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket' is clicked on
+
+2023-08-13 12:09:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE04/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya' is clicked on
+
+2023-08-13 12:09:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya' is clicked on
+
+2023-08-13 12:09:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE04/Page_Coding.ID - Cart/button_Checkout")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Coding.ID - Cart/button_Checkout' is clicked on
+
+2023-08-13 12:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Coding.ID - Cart/button_Checkout' is clicked on
+
+2023-08-13 12:09:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE04/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method' is clicked on
+
+2023-08-13 12:09:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method' is clicked on
+
+2023-08-13 12:09:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE04/Page_Coding.ID - Cart/button_Confirm")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Coding.ID - Cart/button_Confirm' is clicked on
+
+2023-08-13 12:09:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Coding.ID - Cart/button_Confirm' is clicked on
+
+2023-08-13 12:09:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE04/Page_Coding.ID - Cart/a_OCTO Clicks")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Coding.ID - Cart/a_OCTO Clicks' is clicked on
+
+2023-08-13 12:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Coding.ID - Cart/a_OCTO Clicks' is clicked on
+
+2023-08-13 12:09:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE04/Page_Coding.ID - Cart/button_Pay now")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Coding.ID - Cart/button_Pay now' is clicked on
+
+2023-08-13 12:09:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Coding.ID - Cart/button_Pay now' is clicked on
+
+2023-08-13 12:09:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-08-13 12:10:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-13 12:10:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE04/Page_Midtrans Mock Payment Provider/input_Account ID_AccountId"), "testuser00"): Text 'testuser00' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Midtrans Mock Payment Provider/input_Account ID_AccountId'
+
+2023-08-13 12:10:01 - [MESSAGE][PASSED] - Text 'testuser00' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Midtrans Mock Payment Provider/input_Account ID_AccountId'
+
+2023-08-13 12:10:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE04/Page_Midtrans Mock Payment Provider/button_Bayar")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Midtrans Mock Payment Provider/button_Bayar' is clicked on
+
+2023-08-13 12:10:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Midtrans Mock Payment Provider/button_Bayar' is clicked on
+
+2023-08-13 12:10:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE04/Page_Midtrans Mock Payment Provider/div_Transaksi Sukses"), "Transaksi Sukses"): Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Midtrans Mock Payment Provider/div_Transaksi Sukses' are matched.
+
+2023-08-13 12:10:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE04/Page_Midtrans Mock Payment Provider/div_Transaksi Sukses' are matched.
+
+2023-08-13 12:10:02 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-08-13 12:10:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903402999.png]]
+
+2023-08-13 12:10:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-13 12:10:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Website/SW-Flow Beli Event/SW-BE05 (dummy4)" time="30.589" classname="Test Cases/Website/SW-Flow Beli Event/SW-BE05 (dummy4)" status="PASSED">
+         <system-out><![CDATA[2023-08-13 12:10:03 - [TEST_CASE][PASSED] - Test Cases/Website/SW-Flow Beli Event/SW-BE05 (dummy4): Test Cases/Website/SW-Flow Beli Event/SW-BE05 (dummy4)
+
+2023-08-13 12:10:04 - [TEST_STEP][PASSED] - openBrowser("https://demo-app.online/"): Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:10:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-13 12:10:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-13 12:10:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:10:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-13 12:10:11 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-13 12:10:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE05/Page_Be a Profressional Talent with Coding.ID/a_Masuk")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:10:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE05/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email"), "povojo1978@v1zw.com"): Text 'povojo1978@v1zw.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:10:14 - [MESSAGE][PASSED] - Text 'povojo1978@v1zw.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:10:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE05/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12"), "password"): Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:10:15 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:10:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE05/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:10:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE05/Page_Be a Profressional Talent with Coding.ID/a_Events")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Be a Profressional Talent with Coding.ID/a_Events' is clicked on
+
+2023-08-13 12:10:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Be a Profressional Talent with Coding.ID/a_Events' is clicked on
+
+2023-08-13 12:10:17 - [TEST_STEP][PASSED] - click(findTestObject("Web - Flow Beli Event/SW-BE05/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14' is clicked on
+
+2023-08-13 12:10:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14' is clicked on
+
+2023-08-13 12:10:18 - [TEST_STEP][PASSED] - click(findTestObject("Web - Flow Beli Event/SW-BE05/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket' is clicked on
+
+2023-08-13 12:10:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket' is clicked on
+
+2023-08-13 12:10:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE05/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya' is clicked on
+
+2023-08-13 12:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya' is clicked on
+
+2023-08-13 12:10:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE05/Page_Coding.ID - Cart/button_Checkout")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Coding.ID - Cart/button_Checkout' is clicked on
+
+2023-08-13 12:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Coding.ID - Cart/button_Checkout' is clicked on
+
+2023-08-13 12:10:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE05/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method' is clicked on
+
+2023-08-13 12:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method' is clicked on
+
+2023-08-13 12:10:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE05/Page_Coding.ID - Cart/button_Confirm")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Coding.ID - Cart/button_Confirm' is clicked on
+
+2023-08-13 12:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Coding.ID - Cart/button_Confirm' is clicked on
+
+2023-08-13 12:10:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE05/Page_Coding.ID - Cart/a_Danamon Online Banking")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Coding.ID - Cart/a_Danamon Online Banking' is clicked on
+
+2023-08-13 12:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Coding.ID - Cart/a_Danamon Online Banking' is clicked on
+
+2023-08-13 12:10:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE05/Page_Coding.ID - Cart/button_Pay now")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Coding.ID - Cart/button_Pay now' is clicked on
+
+2023-08-13 12:10:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Coding.ID - Cart/button_Pay now' is clicked on
+
+2023-08-13 12:10:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-08-13 12:10:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-13 12:10:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE05/Page_Midtrans Mock Payment Provider/button_Pay")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Midtrans Mock Payment Provider/button_Pay' is clicked on
+
+2023-08-13 12:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Midtrans Mock Payment Provider/button_Pay' is clicked on
+
+2023-08-13 12:10:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE05/Page_Midtrans Mock Payment Provider/h1_Danamon Online"), "Danamon Online"): Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Midtrans Mock Payment Provider/h1_Danamon Online' are matched.
+
+2023-08-13 12:10:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Midtrans Mock Payment Provider/h1_Danamon Online' are matched.
+
+2023-08-13 12:10:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE05/Page_Midtrans Mock Payment Provider/div_Payment Success"), "Payment Success"): Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Midtrans Mock Payment Provider/div_Payment Success' are matched.
+
+2023-08-13 12:10:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE05/Page_Midtrans Mock Payment Provider/div_Payment Success' are matched.
+
+2023-08-13 12:10:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-08-13 12:10:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903433429.png]]
+
+2023-08-13 12:10:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-13 12:10:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Website/SW-Flow Beli Event/SW-BE06" time="20.877" classname="Test Cases/Website/SW-Flow Beli Event/SW-BE06" status="PASSED">
+         <system-out><![CDATA[2023-08-13 12:10:34 - [TEST_CASE][PASSED] - Test Cases/Website/SW-Flow Beli Event/SW-BE06: Test Cases/Website/SW-Flow Beli Event/SW-BE06
+
+2023-08-13 12:10:34 - [TEST_STEP][PASSED] - openBrowser("https://demo-app.online/"): Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:10:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-13 12:10:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-13 12:10:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:10:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-13 12:10:38 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-13 12:10:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE06/Page_Be a Profressional Talent with Coding.ID/a_Masuk")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:10:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:10:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE06/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email"), "nekox80432@vreaa.com"): Text 'nekox80432@vreaa.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:10:40 - [MESSAGE][PASSED] - Text 'nekox80432@vreaa.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:10:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE06/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12"), "password"): Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:10:41 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:10:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE06/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:10:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:10:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE06/Page_Be a Profressional Talent with Coding.ID/a_Events")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Be a Profressional Talent with Coding.ID/a_Events' is clicked on
+
+2023-08-13 12:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Be a Profressional Talent with Coding.ID/a_Events' is clicked on
+
+2023-08-13 12:10:43 - [TEST_STEP][PASSED] - click(findTestObject("Web - Flow Beli Event/SW-BE06/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14' is clicked on
+
+2023-08-13 12:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14' is clicked on
+
+2023-08-13 12:10:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE06/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket' is clicked on
+
+2023-08-13 12:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket' is clicked on
+
+2023-08-13 12:10:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE06/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya' is clicked on
+
+2023-08-13 12:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya' is clicked on
+
+2023-08-13 12:10:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/button_Checkout")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/button_Checkout' is clicked on
+
+2023-08-13 12:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/button_Checkout' is clicked on
+
+2023-08-13 12:10:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method' is clicked on
+
+2023-08-13 12:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method' is clicked on
+
+2023-08-13 12:10:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/button_Confirm")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/button_Confirm' is clicked on
+
+2023-08-13 12:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/button_Confirm' is clicked on
+
+2023-08-13 12:10:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/a_Indomaret")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/a_Indomaret' is clicked on
+
+2023-08-13 12:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/a_Indomaret' is clicked on
+
+2023-08-13 12:10:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/span_Indomaret"), "Indomaret"): Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/span_Indomaret' are matched.
+
+2023-08-13 12:10:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/span_Indomaret' are matched.
+
+2023-08-13 12:10:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/div_Payment code"), "Payment code"): Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/div_Payment code' are matched.
+
+2023-08-13 12:10:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/div_Payment code' are matched.
+
+2023-08-13 12:10:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-08-13 12:10:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903454425.png]]
+
+2023-08-13 12:10:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-13 12:10:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Website/SW-Flow Beli Event/SW-BE07 (dummy5)" time="31.313" classname="Test Cases/Website/SW-Flow Beli Event/SW-BE07 (dummy5)" status="PASSED">
+         <system-out><![CDATA[2023-08-13 12:10:55 - [TEST_CASE][PASSED] - Test Cases/Website/SW-Flow Beli Event/SW-BE07 (dummy5): Test Cases/Website/SW-Flow Beli Event/SW-BE07 (dummy5)
+
+2023-08-13 12:10:55 - [TEST_STEP][PASSED] - openBrowser("https://demo-app.online/"): Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:10:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-13 12:10:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-13 12:11:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:11:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-13 12:11:01 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-13 12:11:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE07/Page_Be a Profressional Talent with Coding.ID/a_Masuk")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:11:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE07/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email"), "lices23875@viperace.com"): Text 'lices23875@viperace.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:11:03 - [MESSAGE][PASSED] - Text 'lices23875@viperace.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:11:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE07/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12"), "password"): Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:11:04 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:11:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE07/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:11:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE07/Page_Be a Profressional Talent with Coding.ID/a_Events")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Be a Profressional Talent with Coding.ID/a_Events' is clicked on
+
+2023-08-13 12:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Be a Profressional Talent with Coding.ID/a_Events' is clicked on
+
+2023-08-13 12:11:07 - [TEST_STEP][PASSED] - click(findTestObject("Web - Flow Beli Event/SW-BE07/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14' is clicked on
+
+2023-08-13 12:11:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14' is clicked on
+
+2023-08-13 12:11:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE07/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket' is clicked on
+
+2023-08-13 12:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket' is clicked on
+
+2023-08-13 12:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE07/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya' is clicked on
+
+2023-08-13 12:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya' is clicked on
+
+2023-08-13 12:11:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/button_Checkout")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/button_Checkout' is clicked on
+
+2023-08-13 12:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/button_Checkout' is clicked on
+
+2023-08-13 12:11:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method' is clicked on
+
+2023-08-13 12:11:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method' is clicked on
+
+2023-08-13 12:11:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/button_Confirm")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/button_Confirm' is clicked on
+
+2023-08-13 12:11:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/button_Confirm' is clicked on
+
+2023-08-13 12:11:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/a_Akulaku PayLater")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/a_Akulaku PayLater' is clicked on
+
+2023-08-13 12:11:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/a_Akulaku PayLater' is clicked on
+
+2023-08-13 12:11:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/span_Akulaku PayLater"), "Akulaku PayLater"): Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/span_Akulaku PayLater' are matched.
+
+2023-08-13 12:11:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/span_Akulaku PayLater' are matched.
+
+2023-08-13 12:11:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/button_Pay now")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/button_Pay now' is clicked on
+
+2023-08-13 12:11:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/button_Pay now' is clicked on
+
+2023-08-13 12:11:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-08-13 12:11:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-13 12:11:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE07/Page_Midtrans Mock Payment Provider/input_Phone Number_phoneNumber"), "08122222222"): Text '08122222222' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Midtrans Mock Payment Provider/input_Phone Number_phoneNumber'
+
+2023-08-13 12:11:23 - [MESSAGE][PASSED] - Text '08122222222' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Midtrans Mock Payment Provider/input_Phone Number_phoneNumber'
+
+2023-08-13 12:11:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE07/Page_Midtrans Mock Payment Provider/button_Next")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Midtrans Mock Payment Provider/button_Next' is clicked on
+
+2023-08-13 12:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Midtrans Mock Payment Provider/button_Next' is clicked on
+
+2023-08-13 12:11:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE07/Page_Midtrans Mock Payment Provider/button_Pay")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Midtrans Mock Payment Provider/button_Pay' is clicked on
+
+2023-08-13 12:11:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Midtrans Mock Payment Provider/button_Pay' is clicked on
+
+2023-08-13 12:11:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE07/Page_Midtrans Mock Payment Provider/h1_Akulaku"), "Akulaku"): Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Midtrans Mock Payment Provider/h1_Akulaku' are matched.
+
+2023-08-13 12:11:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Midtrans Mock Payment Provider/h1_Akulaku' are matched.
+
+2023-08-13 12:11:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE07/Page_Midtrans Mock Payment Provider/div_Transaction is Successful"), "Transaction is Successful"): Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Midtrans Mock Payment Provider/div_Transaction is Successful' are matched.
+
+2023-08-13 12:11:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE07/Page_Midtrans Mock Payment Provider/div_Transaction is Successful' are matched.
+
+2023-08-13 12:11:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-08-13 12:11:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903485740.png]]
+
+2023-08-13 12:11:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-13 12:11:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Website/SW-Flow Beli Event/SW-BE09 (dummy6)" time="31.434" classname="Test Cases/Website/SW-Flow Beli Event/SW-BE09 (dummy6)" status="PASSED">
+         <system-out><![CDATA[2023-08-13 12:11:26 - [TEST_CASE][PASSED] - Test Cases/Website/SW-Flow Beli Event/SW-BE09 (dummy6): Test Cases/Website/SW-Flow Beli Event/SW-BE09 (dummy6)
+
+2023-08-13 12:11:27 - [TEST_STEP][PASSED] - openBrowser("https://demo-app.online/"): Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:11:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-13 12:11:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-13 12:11:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:11:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-13 12:11:32 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-13 12:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Be a Profressional Talent with Coding.ID/a_Masuk")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:11:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email"), "sotol69873@vreaa.com"): Text 'sotol69873@vreaa.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:11:34 - [MESSAGE][PASSED] - Text 'sotol69873@vreaa.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:11:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12"), "password"): Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:11:35 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:11:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:11:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:11:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Be a Profressional Talent with Coding.ID/a_Events")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Be a Profressional Talent with Coding.ID/a_Events' is clicked on
+
+2023-08-13 12:11:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Be a Profressional Talent with Coding.ID/a_Events' is clicked on
+
+2023-08-13 12:11:38 - [TEST_STEP][PASSED] - click(findTestObject("Web - Flow Beli Event/SW-BE01/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14' is clicked on
+
+2023-08-13 12:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE01/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14' is clicked on
+
+2023-08-13 12:11:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket' is clicked on
+
+2023-08-13 12:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket' is clicked on
+
+2023-08-13 12:11:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya' is clicked on
+
+2023-08-13 12:11:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya' is clicked on
+
+2023-08-13 12:11:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Checkout")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Checkout' is clicked on
+
+2023-08-13 12:11:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Checkout' is clicked on
+
+2023-08-13 12:11:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method' is clicked on
+
+2023-08-13 12:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method' is clicked on
+
+2023-08-13 12:11:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Confirm")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Confirm' is clicked on
+
+2023-08-13 12:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Confirm' is clicked on
+
+2023-08-13 12:11:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/a_BCA KlikPay")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/a_BCA KlikPay' is clicked on
+
+2023-08-13 12:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/a_BCA KlikPay' is clicked on
+
+2023-08-13 12:11:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/span_BCA KlikPay"), "BCA KlikPay"): Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/span_BCA KlikPay' are matched.
+
+2023-08-13 12:11:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/span_BCA KlikPay' are matched.
+
+2023-08-13 12:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Pay now")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Pay now' is clicked on
+
+2023-08-13 12:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Pay now' is clicked on
+
+2023-08-13 12:11:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Midtrans Mock Payment Provider/button_Bayar")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Midtrans Mock Payment Provider/button_Bayar' is clicked on
+
+2023-08-13 12:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Midtrans Mock Payment Provider/button_Bayar' is clicked on
+
+2023-08-13 12:11:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE03/Page_Midtrans Mock Payment Provider/div_Transaksi Sukses"), "Transaksi Sukses"): Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Midtrans Mock Payment Provider/div_Transaksi Sukses' are matched.
+
+2023-08-13 12:11:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE03/Page_Midtrans Mock Payment Provider/div_Transaksi Sukses' are matched.
+
+2023-08-13 12:11:51 - [TEST_STEP][PASSED] - navigateToUrl("https://demo-app.online/"): Navigate to 'https://demo-app.online/' successfully
+
+2023-08-13 12:11:52 - [MESSAGE][PASSED] - Navigate to 'https://demo-app.online/' successfully
+
+2023-08-13 12:11:52 - [TEST_STEP][PASSED] - click(findTestObject("Web - Flow Beli Event/SW-BE10/Page_Be a Profressional Talent with Coding.ID/a")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE10/Page_Be a Profressional Talent with Coding.ID/a' is clicked on
+
+2023-08-13 12:11:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE10/Page_Be a Profressional Talent with Coding.ID/a' is clicked on
+
+2023-08-13 12:11:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE09/Page_Be a Profressional Talent with Coding.ID/a_My Account")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE09/Page_Be a Profressional Talent with Coding.ID/a_My Account' is clicked on
+
+2023-08-13 12:11:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE09/Page_Be a Profressional Talent with Coding.ID/a_My Account' is clicked on
+
+2023-08-13 12:11:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE09/Page_Coding.ID - Dashboard/span_Invoice")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE09/Page_Coding.ID - Dashboard/span_Invoice' is clicked on
+
+2023-08-13 12:11:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE09/Page_Coding.ID - Dashboard/span_Invoice' is clicked on
+
+2023-08-13 12:11:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE09/Page_Coding.ID - Dashboard/span_Completed"), "Completed"): Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE09/Page_Coding.ID - Dashboard/span_Completed' are matched.
+
+2023-08-13 12:11:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE09/Page_Coding.ID - Dashboard/span_Completed' are matched.
+
+2023-08-13 12:11:56 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-08-13 12:11:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903517126.png]]
+
+2023-08-13 12:11:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-13 12:11:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Website/SW-Flow Beli Event/SW-BE10" time="17.625" classname="Test Cases/Website/SW-Flow Beli Event/SW-BE10" status="PASSED">
+         <system-out><![CDATA[2023-08-13 12:11:58 - [TEST_CASE][PASSED] - Test Cases/Website/SW-Flow Beli Event/SW-BE10: Test Cases/Website/SW-Flow Beli Event/SW-BE10
+
+2023-08-13 12:11:58 - [TEST_STEP][PASSED] - openBrowser("https://demo-app.online/"): Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:11:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-13 12:11:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-13 12:12:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:12:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-13 12:12:06 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-13 12:12:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE10/Page_Be a Profressional Talent with Coding.ID/a_Masuk")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE10/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:12:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE10/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:12:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE10/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email"), "pehova5882@viperace.com"): Text 'pehova5882@viperace.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE10/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:12:08 - [MESSAGE][PASSED] - Text 'pehova5882@viperace.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE10/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:12:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE10/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12"), "password"): Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE10/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:12:09 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE10/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:12:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE10/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE10/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:12:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE10/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:12:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE10/Page_Be a Profressional Talent with Coding.ID/a")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE10/Page_Be a Profressional Talent with Coding.ID/a' is clicked on
+
+2023-08-13 12:12:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE10/Page_Be a Profressional Talent with Coding.ID/a' is clicked on
+
+2023-08-13 12:12:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE10/Page_Be a Profressional Talent with Coding.ID/a_My Account")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE10/Page_Be a Profressional Talent with Coding.ID/a_My Account' is clicked on
+
+2023-08-13 12:12:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE10/Page_Be a Profressional Talent with Coding.ID/a_My Account' is clicked on
+
+2023-08-13 12:12:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE10/Page_Coding.ID - Dashboard/span_Invoice")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE10/Page_Coding.ID - Dashboard/span_Invoice' is clicked on
+
+2023-08-13 12:12:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE10/Page_Coding.ID - Dashboard/span_Invoice' is clicked on
+
+2023-08-13 12:12:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE10/Page_Coding.ID - Dashboard/td_No data available in table"), "No data available in table"): Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE10/Page_Coding.ID - Dashboard/td_No data available in table' are matched.
+
+2023-08-13 12:12:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web - Flow Beli Event/SW-BE10/Page_Coding.ID - Dashboard/td_No data available in table' are matched.
+
+2023-08-13 12:12:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-08-13 12:12:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903534894.png]]
+
+2023-08-13 12:12:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-13 12:12:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Website/SW-Flow Beli Event/SW-BE11" time="16.394" classname="Test Cases/Website/SW-Flow Beli Event/SW-BE11" status="PASSED">
+         <system-out><![CDATA[2023-08-13 12:12:15 - [TEST_CASE][PASSED] - Test Cases/Website/SW-Flow Beli Event/SW-BE11: Test Cases/Website/SW-Flow Beli Event/SW-BE11
+
+2023-08-13 12:12:15 - [TEST_STEP][PASSED] - openBrowser("https://demo-app.online/"): Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:12:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-13 12:12:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-13 12:12:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:12:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-13 12:12:22 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-13 12:12:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE11/Page_Be a Profressional Talent with Coding.ID/a_Masuk")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE11/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:12:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE11/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:12:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE11/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email"), isya_katalon_email): Text 'isya.katalon@gmail.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE11/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:12:24 - [MESSAGE][PASSED] - Text 'isya.katalon@gmail.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE11/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:12:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE11/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12"), isya_katalon_password): Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE11/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:12:25 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE11/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:12:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE11/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE11/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:12:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE11/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:12:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE11/Page_Be a Profressional Talent with Coding.ID/a_Events")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE11/Page_Be a Profressional Talent with Coding.ID/a_Events' is clicked on
+
+2023-08-13 12:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE11/Page_Be a Profressional Talent with Coding.ID/a_Events' is clicked on
+
+2023-08-13 12:12:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE11/Page_Online event bersertifikat dari prakti_f42b96/div_Day 2 Data Wrangling with Python       _d4413c")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE11/Page_Online event bersertifikat dari prakti_f42b96/div_Day 2 Data Wrangling with Python       _d4413c' is clicked on
+
+2023-08-13 12:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE11/Page_Online event bersertifikat dari prakti_f42b96/div_Day 2 Data Wrangling with Python       _d4413c' is clicked on
+
+2023-08-13 12:12:29 - [TEST_STEP][PASSED] - verifyTextPresent("PENDAFTARAN DITUTUP", true): Text 'PENDAFTARAN DITUTUP' is present on page  using regular expression
+
+2023-08-13 12:12:31 - [MESSAGE][PASSED] - Text 'PENDAFTARAN DITUTUP' is present on page  using regular expression
+
+2023-08-13 12:12:31 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-08-13 12:12:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903551311.png]]
+
+2023-08-13 12:12:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-13 12:12:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Website/SW-Flow Beli Event/SW-BE12" time="12.518" classname="Test Cases/Website/SW-Flow Beli Event/SW-BE12" status="PASSED">
+         <system-out><![CDATA[2023-08-13 12:12:32 - [TEST_CASE][PASSED] - Test Cases/Website/SW-Flow Beli Event/SW-BE12: Test Cases/Website/SW-Flow Beli Event/SW-BE12
+
+2023-08-13 12:12:32 - [TEST_STEP][PASSED] - openBrowser("https://demo-app.online/"): Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:12:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-13 12:12:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-13 12:12:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-app.online/'
+
+2023-08-13 12:12:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-13 12:12:36 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-13 12:12:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE12/Page_Be a Profressional Talent with Coding.ID/a_Masuk")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE12/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:12:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE12/Page_Be a Profressional Talent with Coding.ID/a_Masuk' is clicked on
+
+2023-08-13 12:12:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE12/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email"), isya_katalon_email): Text 'isya.katalon@gmail.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE12/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:12:38 - [MESSAGE][PASSED] - Text 'isya.katalon@gmail.com' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE12/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'
+
+2023-08-13 12:12:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE12/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12"), isya_katalon_password): Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE12/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:12:38 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Web - Flow Beli Event/SW-BE12/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'
+
+2023-08-13 12:12:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE12/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE12/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:12:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE12/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login' is clicked on
+
+2023-08-13 12:12:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE12/Page_Be a Profressional Talent with Coding.ID/a_Events")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE12/Page_Be a Profressional Talent with Coding.ID/a_Events' is clicked on
+
+2023-08-13 12:12:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE12/Page_Be a Profressional Talent with Coding.ID/a_Events' is clicked on
+
+2023-08-13 12:12:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Web - Flow Beli Event/SW-BE12/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14")): Object: 'Object Repository/Web - Flow Beli Event/SW-BE12/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14' is clicked on
+
+2023-08-13 12:12:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Web - Flow Beli Event/SW-BE12/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14' is clicked on
+
+2023-08-13 12:12:42 - [TEST_STEP][PASSED] - verifyTextPresent("You are joined", false): Text 'You are joined' is present on page 
+
+2023-08-13 12:12:43 - [MESSAGE][PASSED] - Text 'You are joined' is present on page 
+
+2023-08-13 12:12:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2023-08-13 12:12:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rizky\\git\\tim2_katalonfinalproject\\Reports\\20230813_120804\\Platform Website\\SW-Flow Beli Event\\20230813_120805\\1691903563700.png]]
+
+2023-08-13 12:12:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-13 12:12:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-13 12:08:06 - [TEST_SUITE][PASSED] - SW-Flow Beli Event: Test Cases/Website/SW-Flow Beli Event/SW-BE12]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

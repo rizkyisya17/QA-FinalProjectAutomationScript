@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SA-LOGIN" time="5.139" tests="11" failures="0" errors="0">
+   <testsuite name="SA-LOGIN" tests="11" failures="0" errors="0" time="5.139" skipped="0" timestamp="2023-08-13 22:12:16" hostname="rizky - rizkyisya" id="Test Suites/Platform API/SA-LOGIN">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Bootcamp QA Coding.id\\Final Project\\GitLab FinalProject\\Reports\\20230813_221213\\Platform API\\SA-LOGIN\\20230813_221214"/>
+         <property name="logFiles" value="D:\\Bootcamp QA Coding.id\\Final Project\\GitLab FinalProject\\Reports\\20230813_221213\\Platform API\\SA-LOGIN\\20230813_221214\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rizky - rizkyisya"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+      </properties>
+      <testcase name="Test Cases/API/SA-Login/SA-LOG01" time="1.75" classname="Test Cases/API/SA-Login/SA-LOG01" status="PASSED">
+         <system-out><![CDATA[2023-08-13 22:12:16 - [TEST_CASE][PASSED] - Test Cases/API/SA-Login/SA-LOG01: Test Cases/API/SA-Login/SA-LOG01
+
+2023-08-13 22:12:16 - [TEST_STEP][PASSED] - ResponseLogin = sendRequest(findTestObject("API - Login/SA-LOG01")): Send request successfully
+
+2023-08-13 22:12:17 - [MESSAGE][INFO] - HAR: D:\Bootcamp QA Coding.id\Final Project\GitLab FinalProject\Reports\20230813_221213\Platform API\SA-LOGIN\20230813_221214\requests\main\0.har
+
+2023-08-13 22:12:17 - [MESSAGE][PASSED] - Send request successfully
+
+2023-08-13 22:12:17 - [TEST_STEP][PASSED] - StatusCode = getResponseStatusCode(ResponseLogin): null
+
+2023-08-13 22:12:17 - [TEST_STEP][PASSED] - verifyEqual(StatusCode, 200): Actual object '200' and expected object '200' are equal
+
+2023-08-13 22:12:18 - [MESSAGE][PASSED] - Actual object '200' and expected object '200' are equal
+
+2023-08-13 22:12:18 - [TEST_STEP][PASSED] - ValueToken = getElementPropertyValue(ResponseLogin, "success.token"): null
+
+2023-08-13 22:12:18 - [TEST_STEP][PASSED] - println("status:" + StatusCode): null
+
+2023-08-13 22:12:18 - [TEST_STEP][PASSED] - println("token: " + ValueToken): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SA-Login/SA-LOG02" time="0.383" classname="Test Cases/API/SA-Login/SA-LOG02" status="PASSED">
+         <system-out><![CDATA[2023-08-13 22:12:18 - [TEST_CASE][PASSED] - Test Cases/API/SA-Login/SA-LOG02: Test Cases/API/SA-Login/SA-LOG02
+
+2023-08-13 22:12:18 - [TEST_STEP][PASSED] - ResponseLogin = sendRequest(findTestObject("API - Login/SA-LOG02")): Send request successfully
+
+2023-08-13 22:12:18 - [MESSAGE][INFO] - HAR: D:\Bootcamp QA Coding.id\Final Project\GitLab FinalProject\Reports\20230813_221213\Platform API\SA-LOGIN\20230813_221214\requests\main\1.har
+
+2023-08-13 22:12:18 - [MESSAGE][PASSED] - Send request successfully
+
+2023-08-13 22:12:18 - [TEST_STEP][PASSED] - StatusCode = getResponseStatusCode(ResponseLogin): null
+
+2023-08-13 22:12:18 - [TEST_STEP][PASSED] - verifyEqual(StatusCode, 200): Actual object '200' and expected object '200' are equal
+
+2023-08-13 22:12:18 - [MESSAGE][PASSED] - Actual object '200' and expected object '200' are equal
+
+2023-08-13 22:12:18 - [TEST_STEP][PASSED] - ValueToken = getElementPropertyValue(ResponseLogin, "success.token"): null
+
+2023-08-13 22:12:18 - [TEST_STEP][PASSED] - println("status:" + StatusCode): null
+
+2023-08-13 22:12:18 - [TEST_STEP][PASSED] - println("token: " + ValueToken): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SA-Login/SA-LOG03" time="0.33" classname="Test Cases/API/SA-Login/SA-LOG03" status="PASSED">
+         <system-out><![CDATA[2023-08-13 22:12:18 - [TEST_CASE][PASSED] - Test Cases/API/SA-Login/SA-LOG03: Test Cases/API/SA-Login/SA-LOG03
+
+2023-08-13 22:12:18 - [TEST_STEP][PASSED] - ResponseLogin = sendRequest(findTestObject("API - Login/SA-LOG03")): Send request successfully
+
+2023-08-13 22:12:18 - [MESSAGE][INFO] - HAR: D:\Bootcamp QA Coding.id\Final Project\GitLab FinalProject\Reports\20230813_221213\Platform API\SA-LOGIN\20230813_221214\requests\main\2.har
+
+2023-08-13 22:12:18 - [MESSAGE][PASSED] - Send request successfully
+
+2023-08-13 22:12:18 - [TEST_STEP][PASSED] - StatusCode = getResponseStatusCode(ResponseLogin): null
+
+2023-08-13 22:12:18 - [TEST_STEP][PASSED] - verifyEqual(StatusCode, 401): Actual object '401' and expected object '401' are equal
+
+2023-08-13 22:12:18 - [MESSAGE][PASSED] - Actual object '401' and expected object '401' are equal
+
+2023-08-13 22:12:18 - [TEST_STEP][PASSED] - ValueError = getElementPropertyValue(ResponseLogin, "error"): null
+
+2023-08-13 22:12:18 - [TEST_STEP][PASSED] - println("status: " + StatusCode): null
+
+2023-08-13 22:12:18 - [TEST_STEP][PASSED] - println("message: " + ValueError): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SA-Login/SA-LOG04" time="0.499" classname="Test Cases/API/SA-Login/SA-LOG04" status="PASSED">
+         <system-out><![CDATA[2023-08-13 22:12:18 - [TEST_CASE][PASSED] - Test Cases/API/SA-Login/SA-LOG04: Test Cases/API/SA-Login/SA-LOG04
+
+2023-08-13 22:12:18 - [TEST_STEP][PASSED] - ResponseLogin = sendRequest(findTestObject("API - Login/SA-LOG04")): Send request successfully
+
+2023-08-13 22:12:19 - [MESSAGE][INFO] - HAR: D:\Bootcamp QA Coding.id\Final Project\GitLab FinalProject\Reports\20230813_221213\Platform API\SA-LOGIN\20230813_221214\requests\main\3.har
+
+2023-08-13 22:12:19 - [MESSAGE][PASSED] - Send request successfully
+
+2023-08-13 22:12:19 - [TEST_STEP][PASSED] - StatusCode = getResponseStatusCode(ResponseLogin): null
+
+2023-08-13 22:12:19 - [TEST_STEP][PASSED] - verifyEqual(StatusCode, 401): Actual object '401' and expected object '401' are equal
+
+2023-08-13 22:12:19 - [MESSAGE][PASSED] - Actual object '401' and expected object '401' are equal
+
+2023-08-13 22:12:19 - [TEST_STEP][PASSED] - ValueError = getElementPropertyValue(ResponseLogin, "error"): null
+
+2023-08-13 22:12:19 - [TEST_STEP][PASSED] - println("status: " + StatusCode): null
+
+2023-08-13 22:12:19 - [TEST_STEP][PASSED] - println("message: " + ValueError): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SA-Login/SA-LOG05" time="0.298" classname="Test Cases/API/SA-Login/SA-LOG05" status="PASSED">
+         <system-out><![CDATA[2023-08-13 22:12:19 - [TEST_CASE][PASSED] - Test Cases/API/SA-Login/SA-LOG05: Test Cases/API/SA-Login/SA-LOG05
+
+2023-08-13 22:12:19 - [TEST_STEP][PASSED] - ResponseLogin = sendRequest(findTestObject("API - Login/SA-LOG05")): Send request successfully
+
+2023-08-13 22:12:19 - [MESSAGE][INFO] - HAR: D:\Bootcamp QA Coding.id\Final Project\GitLab FinalProject\Reports\20230813_221213\Platform API\SA-LOGIN\20230813_221214\requests\main\4.har
+
+2023-08-13 22:12:19 - [MESSAGE][PASSED] - Send request successfully
+
+2023-08-13 22:12:19 - [TEST_STEP][PASSED] - StatusCode = getResponseStatusCode(ResponseLogin): null
+
+2023-08-13 22:12:19 - [TEST_STEP][PASSED] - verifyEqual(StatusCode, 401): Actual object '401' and expected object '401' are equal
+
+2023-08-13 22:12:19 - [MESSAGE][PASSED] - Actual object '401' and expected object '401' are equal
+
+2023-08-13 22:12:19 - [TEST_STEP][PASSED] - ValueError = getElementPropertyValue(ResponseLogin, "error"): null
+
+2023-08-13 22:12:19 - [TEST_STEP][PASSED] - println("status: " + StatusCode): null
+
+2023-08-13 22:12:19 - [TEST_STEP][PASSED] - println("message: " + ValueError): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SA-Login/SA-LOG06" time="0.34" classname="Test Cases/API/SA-Login/SA-LOG06" status="PASSED">
+         <system-out><![CDATA[2023-08-13 22:12:19 - [TEST_CASE][PASSED] - Test Cases/API/SA-Login/SA-LOG06: Test Cases/API/SA-Login/SA-LOG06
+
+2023-08-13 22:12:19 - [TEST_STEP][PASSED] - ResponseLogin = sendRequest(findTestObject("API - Login/SA-LOG06")): Send request successfully
+
+2023-08-13 22:12:19 - [MESSAGE][INFO] - HAR: D:\Bootcamp QA Coding.id\Final Project\GitLab FinalProject\Reports\20230813_221213\Platform API\SA-LOGIN\20230813_221214\requests\main\5.har
+
+2023-08-13 22:12:19 - [MESSAGE][PASSED] - Send request successfully
+
+2023-08-13 22:12:19 - [TEST_STEP][PASSED] - StatusCode = getResponseStatusCode(ResponseLogin): null
+
+2023-08-13 22:12:19 - [TEST_STEP][PASSED] - verifyEqual(StatusCode, 401): Actual object '401' and expected object '401' are equal
+
+2023-08-13 22:12:19 - [MESSAGE][PASSED] - Actual object '401' and expected object '401' are equal
+
+2023-08-13 22:12:19 - [TEST_STEP][PASSED] - ValueError = getElementPropertyValue(ResponseLogin, "error"): null
+
+2023-08-13 22:12:19 - [TEST_STEP][PASSED] - println("status: " + StatusCode): null
+
+2023-08-13 22:12:19 - [TEST_STEP][PASSED] - println("message: " + ValueError): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SA-Login/SA-LOG07" time="0.288" classname="Test Cases/API/SA-Login/SA-LOG07" status="PASSED">
+         <system-out><![CDATA[2023-08-13 22:12:19 - [TEST_CASE][PASSED] - Test Cases/API/SA-Login/SA-LOG07: Test Cases/API/SA-Login/SA-LOG07
+
+2023-08-13 22:12:20 - [TEST_STEP][PASSED] - ResponseLogin = sendRequest(findTestObject("API - Login/SA-LOG07")): Send request successfully
+
+2023-08-13 22:12:20 - [MESSAGE][INFO] - HAR: D:\Bootcamp QA Coding.id\Final Project\GitLab FinalProject\Reports\20230813_221213\Platform API\SA-LOGIN\20230813_221214\requests\main\6.har
+
+2023-08-13 22:12:20 - [MESSAGE][PASSED] - Send request successfully
+
+2023-08-13 22:12:20 - [TEST_STEP][PASSED] - StatusCode = getResponseStatusCode(ResponseLogin): null
+
+2023-08-13 22:12:20 - [TEST_STEP][PASSED] - verifyEqual(StatusCode, 401): Actual object '401' and expected object '401' are equal
+
+2023-08-13 22:12:20 - [MESSAGE][PASSED] - Actual object '401' and expected object '401' are equal
+
+2023-08-13 22:12:20 - [TEST_STEP][PASSED] - ValueError = getElementPropertyValue(ResponseLogin, "error"): null
+
+2023-08-13 22:12:20 - [TEST_STEP][PASSED] - println("status: " + StatusCode): null
+
+2023-08-13 22:12:20 - [TEST_STEP][PASSED] - println("message: " + ValueError): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SA-Login/SA-LOG08" time="0.279" classname="Test Cases/API/SA-Login/SA-LOG08" status="PASSED">
+         <system-out><![CDATA[2023-08-13 22:12:20 - [TEST_CASE][PASSED] - Test Cases/API/SA-Login/SA-LOG08: Test Cases/API/SA-Login/SA-LOG08
+
+2023-08-13 22:12:20 - [TEST_STEP][PASSED] - ResponseLogin = sendRequest(findTestObject("API - Login/SA-LOG08")): Send request successfully
+
+2023-08-13 22:12:20 - [MESSAGE][INFO] - HAR: D:\Bootcamp QA Coding.id\Final Project\GitLab FinalProject\Reports\20230813_221213\Platform API\SA-LOGIN\20230813_221214\requests\main\7.har
+
+2023-08-13 22:12:20 - [MESSAGE][PASSED] - Send request successfully
+
+2023-08-13 22:12:20 - [TEST_STEP][PASSED] - StatusCode = getResponseStatusCode(ResponseLogin): null
+
+2023-08-13 22:12:20 - [TEST_STEP][PASSED] - verifyEqual(StatusCode, 401): Actual object '401' and expected object '401' are equal
+
+2023-08-13 22:12:20 - [MESSAGE][PASSED] - Actual object '401' and expected object '401' are equal
+
+2023-08-13 22:12:20 - [TEST_STEP][PASSED] - ValueError = getElementPropertyValue(ResponseLogin, "error"): null
+
+2023-08-13 22:12:20 - [TEST_STEP][PASSED] - println("status: " + StatusCode): null
+
+2023-08-13 22:12:20 - [TEST_STEP][PASSED] - println("message: " + ValueError): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SA-Login/SA-LOG09" time="0.27" classname="Test Cases/API/SA-Login/SA-LOG09" status="PASSED">
+         <system-out><![CDATA[2023-08-13 22:12:20 - [TEST_CASE][PASSED] - Test Cases/API/SA-Login/SA-LOG09: Test Cases/API/SA-Login/SA-LOG09
+
+2023-08-13 22:12:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API - Login/SA-LOG09")): Send request successfully
+
+2023-08-13 22:12:20 - [MESSAGE][INFO] - HAR: D:\Bootcamp QA Coding.id\Final Project\GitLab FinalProject\Reports\20230813_221213\Platform API\SA-LOGIN\20230813_221214\requests\main\8.har
+
+2023-08-13 22:12:20 - [MESSAGE][PASSED] - Send request successfully
+
+2023-08-13 22:12:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 401): Verify response status code successfully
+
+2023-08-13 22:12:20 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-08-13 22:12:20 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "error", "Unauthorised"): Verify element property value successfully
+
+2023-08-13 22:12:20 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SA-Login/SA-LOG10" time="0.275" classname="Test Cases/API/SA-Login/SA-LOG10" status="PASSED">
+         <system-out><![CDATA[2023-08-13 22:12:20 - [TEST_CASE][PASSED] - Test Cases/API/SA-Login/SA-LOG10: Test Cases/API/SA-Login/SA-LOG10
+
+2023-08-13 22:12:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API - Login/SA-LOG10")): Send request successfully
+
+2023-08-13 22:12:20 - [MESSAGE][INFO] - HAR: D:\Bootcamp QA Coding.id\Final Project\GitLab FinalProject\Reports\20230813_221213\Platform API\SA-LOGIN\20230813_221214\requests\main\9.har
+
+2023-08-13 22:12:20 - [MESSAGE][PASSED] - Send request successfully
+
+2023-08-13 22:12:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 401): Verify response status code successfully
+
+2023-08-13 22:12:20 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-08-13 22:12:20 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "error", "Unauthorised"): Verify element property value successfully
+
+2023-08-13 22:12:21 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SA-Login/SA-LOG11" time="0.283" classname="Test Cases/API/SA-Login/SA-LOG11" status="PASSED">
+         <system-out><![CDATA[2023-08-13 22:12:21 - [TEST_CASE][PASSED] - Test Cases/API/SA-Login/SA-LOG11: Test Cases/API/SA-Login/SA-LOG11
+
+2023-08-13 22:12:21 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("API - Login/SA-LOG11")): Send request successfully
+
+2023-08-13 22:12:21 - [MESSAGE][INFO] - HAR: D:\Bootcamp QA Coding.id\Final Project\GitLab FinalProject\Reports\20230813_221213\Platform API\SA-LOGIN\20230813_221214\requests\main\10.har
+
+2023-08-13 22:12:21 - [MESSAGE][PASSED] - Send request successfully
+
+2023-08-13 22:12:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 401): Verify response status code successfully
+
+2023-08-13 22:12:21 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-08-13 22:12:21 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "error", "Unauthorised"): Verify element property value successfully
+
+2023-08-13 22:12:21 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-13 22:12:16 - [TEST_SUITE][PASSED] - SA-LOGIN: Test Cases/API/SA-Login/SA-LOG11]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

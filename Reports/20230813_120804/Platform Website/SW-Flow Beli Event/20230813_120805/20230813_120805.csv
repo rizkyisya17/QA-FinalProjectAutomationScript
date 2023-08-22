@@ -1,0 +1,229 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SW-Flow Beli Event,Chrome 115.0.0.0,,,2023-08-13 12:08:06,2023-08-13 12:12:44,4m - 37.655s,PASSED
+,,,,,,,
+Test Cases/Website/SW-Flow Beli Event/SW-BE01 (dummy1),Chrome 115.0.0.0,,,2023-08-13 12:08:07,2023-08-13 12:08:41,33.922s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 115.0.0.0,,,2023-08-13 12:08:07,2023-08-13 12:08:14,7.172s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,Maximize current window,,2023-08-13 12:08:14,2023-08-13 12:08:14,0.180s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE01/Page_Be a Profressional Talent with Coding.ID/a_Masuk""))",Chrome 115.0.0.0,,,2023-08-13 12:08:14,2023-08-13 12:08:15,0.914s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE01/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email""), ""vasif72009@weishu8.com"")",Chrome 115.0.0.0,,,2023-08-13 12:08:15,2023-08-13 12:08:16,1.107s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE01/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12""), ""password"")",Chrome 115.0.0.0,,,2023-08-13 12:08:16,2023-08-13 12:08:17,0.887s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE01/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login""))",Chrome 115.0.0.0,,,2023-08-13 12:08:17,2023-08-13 12:08:18,0.995s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE01/Page_Be a Profressional Talent with Coding.ID/a_Events""))",Chrome 115.0.0.0,,,2023-08-13 12:08:18,2023-08-13 12:08:19,1.059s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE01/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14""))",Chrome 115.0.0.0,,,2023-08-13 12:08:19,2023-08-13 12:08:21,1.420s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE01/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket""))",Chrome 115.0.0.0,,,2023-08-13 12:08:21,2023-08-13 12:08:21,0.698s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE01/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya""))",Chrome 115.0.0.0,,,2023-08-13 12:08:21,2023-08-13 12:08:26,4.872s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/button_Checkout""))",Chrome 115.0.0.0,,,2023-08-13 12:08:26,2023-08-13 12:08:27,0.901s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method""))",Chrome 115.0.0.0,,,2023-08-13 12:08:27,2023-08-13 12:08:28,0.916s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/button_Confirm""))",Chrome 115.0.0.0,,,2023-08-13 12:08:28,2023-08-13 12:08:28,0.573s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/a_Bank transfer1""))",Chrome 115.0.0.0,,,2023-08-13 12:08:28,2023-08-13 12:08:30,1.342s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/div_BNI""))",Chrome 115.0.0.0,,,2023-08-13 12:08:30,2023-08-13 12:08:31,1.058s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-13 12:08:31,2023-08-13 12:08:36,5.076s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Cart/button_Back to merchant""))",Chrome 115.0.0.0,,,2023-08-13 12:08:36,2023-08-13 12:08:37,0.999s,PASSED
+"getText(findTestObject(""Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Invoice/h5_Invoice                            EVN10_1958af""))",Chrome 115.0.0.0,,,2023-08-13 12:08:37,2023-08-13 12:08:39,1.832s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE01/Page_Coding.ID - Invoice/span_PAYMENT IS BEING PROCESSED""), ""PAYMENT IS BEING PROCESSED"")",Chrome 115.0.0.0,,,2023-08-13 12:08:39,2023-08-13 12:08:39,0.463s,PASSED
+takeScreenshot(),Chrome 115.0.0.0,,,2023-08-13 12:08:39,2023-08-13 12:08:40,0.584s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-13 12:08:40,2023-08-13 12:08:41,0.684s,PASSED
+,,,,,,,
+Test Cases/Website/SW-Flow Beli Event/SW-BE02 (dummy1),Chrome 115.0.0.0,,,2023-08-13 12:08:41,2023-08-13 12:09:06,25.898s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 115.0.0.0,,,2023-08-13 12:08:41,2023-08-13 12:08:46,5.115s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,Maximize current window,,2023-08-13 12:08:46,2023-08-13 12:08:46,0.149s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE02/Page_Be a Profressional Talent with Coding.ID/a_Masuk""))",Chrome 115.0.0.0,,,2023-08-13 12:08:46,2023-08-13 12:08:47,1.127s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE02/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email""), ""vasif72009@weishu8.com"")",Chrome 115.0.0.0,,,2023-08-13 12:08:47,2023-08-13 12:08:48,1.006s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE02/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12""), ""password"")",Chrome 115.0.0.0,,,2023-08-13 12:08:48,2023-08-13 12:08:49,0.843s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE02/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login""))",Chrome 115.0.0.0,,,2023-08-13 12:08:49,2023-08-13 12:08:50,1.024s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE02/Page_Be a Profressional Talent with Coding.ID/a_Events""))",Chrome 115.0.0.0,,,2023-08-13 12:08:50,2023-08-13 12:08:51,1.279s,PASSED
+"click(findTestObject(""Web - Flow Beli Event/Capture/div_Day 4 Workshop   Wi""))",Chrome 115.0.0.0,,,2023-08-13 12:08:51,2023-08-13 12:08:53,1.146s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE02/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket""))",Chrome 115.0.0.0,,,2023-08-13 12:08:53,2023-08-13 12:08:53,0.823s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE02/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya""))",Chrome 115.0.0.0,,,2023-08-13 12:08:53,2023-08-13 12:08:55,1.448s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/button_Checkout""))",Chrome 115.0.0.0,,,2023-08-13 12:08:55,2023-08-13 12:08:56,0.760s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method""))",Chrome 115.0.0.0,,,2023-08-13 12:08:56,2023-08-13 12:08:56,0.884s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/button_Confirm""))",Chrome 115.0.0.0,,,2023-08-13 12:08:56,2023-08-13 12:08:57,0.616s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/a_ShopeePay""))",Chrome 115.0.0.0,,,2023-08-13 12:08:57,2023-08-13 12:08:58,1.022s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/span_ShopeePay""), ""ShopeePay"")",Chrome 115.0.0.0,,,2023-08-13 12:08:58,2023-08-13 12:08:59,0.515s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-13 12:08:59,2023-08-13 12:09:02,3.014s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Cart/button_Back to merchant""))",Chrome 115.0.0.0,,,2023-08-13 12:09:02,2023-08-13 12:09:03,1.065s,PASSED
+"getText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Invoice/h5_Invoice                            EVN11_ed9f16""))",Chrome 115.0.0.0,,,2023-08-13 12:09:03,2023-08-13 12:09:05,2.070s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE02/Page_Coding.ID - Invoice/span_PAYMENT IS BEING PROCESSED""), ""PAYMENT IS BEING PROCESSED"")",Chrome 115.0.0.0,,,2023-08-13 12:09:05,2023-08-13 12:09:05,0.453s,PASSED
+takeScreenshot(),Chrome 115.0.0.0,,,2023-08-13 12:09:05,2023-08-13 12:09:06,0.534s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-13 12:09:06,2023-08-13 12:09:06,0.712s,PASSED
+,,,,,,,
+Test Cases/Website/SW-Flow Beli Event/SW-BE03 (dummy2),Chrome 115.0.0.0,,,2023-08-13 12:09:06,2023-08-13 12:09:33,26.223s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 115.0.0.0,,,2023-08-13 12:09:07,2023-08-13 12:09:10,3.590s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,Maximize current window,,2023-08-13 12:09:10,2023-08-13 12:09:11,0.182s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Be a Profressional Talent with Coding.ID/a_Masuk""))",Chrome 115.0.0.0,,,2023-08-13 12:09:11,2023-08-13 12:09:12,0.969s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email""), ""kelageg243@v1zw.com"")",Chrome 115.0.0.0,,,2023-08-13 12:09:12,2023-08-13 12:09:13,1.128s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12""), ""password"")",Chrome 115.0.0.0,,,2023-08-13 12:09:13,2023-08-13 12:09:14,0.894s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login""))",Chrome 115.0.0.0,,,2023-08-13 12:09:14,2023-08-13 12:09:15,0.924s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Be a Profressional Talent with Coding.ID/a_Events""))",Chrome 115.0.0.0,,,2023-08-13 12:09:15,2023-08-13 12:09:16,1.251s,PASSED
+"click(findTestObject(""Web - Flow Beli Event/Capture/div_Day 4 Workshop   Wi""))",Chrome 115.0.0.0,,,2023-08-13 12:09:16,2023-08-13 12:09:17,1.349s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket""))",Chrome 115.0.0.0,,,2023-08-13 12:09:17,2023-08-13 12:09:18,0.639s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya""))",Chrome 115.0.0.0,,,2023-08-13 12:09:18,2023-08-13 12:09:21,3.022s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Checkout""))",Chrome 115.0.0.0,,,2023-08-13 12:09:21,2023-08-13 12:09:22,0.781s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method""))",Chrome 115.0.0.0,,,2023-08-13 12:09:22,2023-08-13 12:09:22,0.819s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Confirm""))",Chrome 115.0.0.0,,,2023-08-13 12:09:22,2023-08-13 12:09:23,0.694s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/a_BCA KlikPay""))",Chrome 115.0.0.0,,,2023-08-13 12:09:23,2023-08-13 12:09:24,1.220s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/span_BCA KlikPay""), ""BCA KlikPay"")",Chrome 115.0.0.0,,,2023-08-13 12:09:24,2023-08-13 12:09:25,0.762s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Pay now""))",Chrome 115.0.0.0,,,2023-08-13 12:09:25,2023-08-13 12:09:26,0.621s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Midtrans Mock Payment Provider/button_Bayar""))",Chrome 115.0.0.0,,,2023-08-13 12:09:26,2023-08-13 12:09:31,5.124s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Midtrans Mock Payment Provider/div_Transaksi Sukses""), ""Transaksi Sukses"")",Chrome 115.0.0.0,,,2023-08-13 12:09:31,2023-08-13 12:09:31,0.618s,PASSED
+takeScreenshot(),Chrome 115.0.0.0,,,2023-08-13 12:09:31,2023-08-13 12:09:32,0.488s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-13 12:09:32,2023-08-13 12:09:33,0.769s,PASSED
+,,,,,,,
+Test Cases/Website/SW-Flow Beli Event/SW-BE04 (dummy3),Chrome 115.0.0.0,,,2023-08-13 12:09:33,2023-08-13 12:10:03,30.546s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 115.0.0.0,,,2023-08-13 12:09:34,2023-08-13 12:09:40,6.395s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,Maximize current window,,2023-08-13 12:09:40,2023-08-13 12:09:40,0.119s,PASSED
+"click(findTestObject(""Web - Flow Beli Event/SW-BE02/Page_Be a Profressional Talent with Coding.ID/a_Masuk""))",Chrome 115.0.0.0,,,2023-08-13 12:09:40,2023-08-13 12:09:41,0.743s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE04/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email""), ""woyis90672@weishu8.com"")",Chrome 115.0.0.0,,,2023-08-13 12:09:41,2023-08-13 12:09:42,1.137s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE04/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12""), ""password"")",Chrome 115.0.0.0,,,2023-08-13 12:09:42,2023-08-13 12:09:43,0.826s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE04/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login""))",Chrome 115.0.0.0,,,2023-08-13 12:09:43,2023-08-13 12:09:44,0.973s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE04/Page_Be a Profressional Talent with Coding.ID/a_Events""))",Chrome 115.0.0.0,,,2023-08-13 12:09:44,2023-08-13 12:09:45,1.236s,PASSED
+"click(findTestObject(""Web - Flow Beli Event/SW-BE04/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14""))",Chrome 115.0.0.0,,,2023-08-13 12:09:45,2023-08-13 12:09:46,1.172s,PASSED
+"click(findTestObject(""Web - Flow Beli Event/SW-BE04/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket""))",Chrome 115.0.0.0,,,2023-08-13 12:09:46,2023-08-13 12:09:47,0.548s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE04/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya""))",Chrome 115.0.0.0,,,2023-08-13 12:09:47,2023-08-13 12:09:48,1.348s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE04/Page_Coding.ID - Cart/button_Checkout""))",Chrome 115.0.0.0,,,2023-08-13 12:09:48,2023-08-13 12:09:49,0.824s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE04/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method""))",Chrome 115.0.0.0,,,2023-08-13 12:09:49,2023-08-13 12:09:50,0.786s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE04/Page_Coding.ID - Cart/button_Confirm""))",Chrome 115.0.0.0,,,2023-08-13 12:09:50,2023-08-13 12:09:50,0.701s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE04/Page_Coding.ID - Cart/a_OCTO Clicks""))",Chrome 115.0.0.0,,,2023-08-13 12:09:50,2023-08-13 12:09:54,3.397s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE04/Page_Coding.ID - Cart/button_Pay now""))",Chrome 115.0.0.0,,,2023-08-13 12:09:54,2023-08-13 12:09:55,0.950s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-13 12:09:55,2023-08-13 12:10:00,5.014s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE04/Page_Midtrans Mock Payment Provider/input_Account ID_AccountId""), ""testuser00"")",Chrome 115.0.0.0,,,2023-08-13 12:10:00,2023-08-13 12:10:01,1.249s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE04/Page_Midtrans Mock Payment Provider/button_Bayar""))",Chrome 115.0.0.0,,,2023-08-13 12:10:01,2023-08-13 12:10:02,0.704s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE04/Page_Midtrans Mock Payment Provider/div_Transaksi Sukses""), ""Transaksi Sukses"")",Chrome 115.0.0.0,,,2023-08-13 12:10:02,2023-08-13 12:10:02,0.450s,PASSED
+takeScreenshot(),Chrome 115.0.0.0,,,2023-08-13 12:10:02,2023-08-13 12:10:03,0.446s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-13 12:10:03,2023-08-13 12:10:03,0.646s,PASSED
+,,,,,,,
+Test Cases/Website/SW-Flow Beli Event/SW-BE05 (dummy4),Chrome 115.0.0.0,,,2023-08-13 12:10:03,2023-08-13 12:10:34,30.589s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 115.0.0.0,,,2023-08-13 12:10:04,2023-08-13 12:10:11,7.235s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,Maximize current window,,2023-08-13 12:10:11,2023-08-13 12:10:11,0.128s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE05/Page_Be a Profressional Talent with Coding.ID/a_Masuk""))",Chrome 115.0.0.0,,,2023-08-13 12:10:11,2023-08-13 12:10:13,1.719s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE05/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email""), ""povojo1978@v1zw.com"")",Chrome 115.0.0.0,,,2023-08-13 12:10:13,2023-08-13 12:10:14,1.115s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE05/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12""), ""password"")",Chrome 115.0.0.0,,,2023-08-13 12:10:14,2023-08-13 12:10:15,0.781s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE05/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login""))",Chrome 115.0.0.0,,,2023-08-13 12:10:15,2023-08-13 12:10:16,1.067s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE05/Page_Be a Profressional Talent with Coding.ID/a_Events""))",Chrome 115.0.0.0,,,2023-08-13 12:10:16,2023-08-13 12:10:17,1.203s,PASSED
+"click(findTestObject(""Web - Flow Beli Event/SW-BE05/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14""))",Chrome 115.0.0.0,,,2023-08-13 12:10:17,2023-08-13 12:10:18,1.228s,PASSED
+"click(findTestObject(""Web - Flow Beli Event/SW-BE05/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket""))",Chrome 115.0.0.0,,,2023-08-13 12:10:18,2023-08-13 12:10:19,0.693s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE05/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya""))",Chrome 115.0.0.0,,,2023-08-13 12:10:19,2023-08-13 12:10:22,3.191s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE05/Page_Coding.ID - Cart/button_Checkout""))",Chrome 115.0.0.0,,,2023-08-13 12:10:22,2023-08-13 12:10:23,0.716s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE05/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method""))",Chrome 115.0.0.0,,,2023-08-13 12:10:23,2023-08-13 12:10:24,0.975s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE05/Page_Coding.ID - Cart/button_Confirm""))",Chrome 115.0.0.0,,,2023-08-13 12:10:24,2023-08-13 12:10:24,0.592s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE05/Page_Coding.ID - Cart/a_Danamon Online Banking""))",Chrome 115.0.0.0,,,2023-08-13 12:10:24,2023-08-13 12:10:25,0.934s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE05/Page_Coding.ID - Cart/button_Pay now""))",Chrome 115.0.0.0,,,2023-08-13 12:10:25,2023-08-13 12:10:26,0.562s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-13 12:10:26,2023-08-13 12:10:31,5.021s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE05/Page_Midtrans Mock Payment Provider/button_Pay""))",Chrome 115.0.0.0,,,2023-08-13 12:10:31,2023-08-13 12:10:32,0.899s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE05/Page_Midtrans Mock Payment Provider/h1_Danamon Online""), ""Danamon Online"")",Chrome 115.0.0.0,,,2023-08-13 12:10:32,2023-08-13 12:10:32,0.476s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE05/Page_Midtrans Mock Payment Provider/div_Payment Success""), ""Payment Success"")",Chrome 115.0.0.0,,,2023-08-13 12:10:32,2023-08-13 12:10:33,0.489s,PASSED
+takeScreenshot(),Chrome 115.0.0.0,,,2023-08-13 12:10:33,2023-08-13 12:10:33,0.507s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-13 12:10:33,2023-08-13 12:10:34,0.788s,PASSED
+,,,,,,,
+Test Cases/Website/SW-Flow Beli Event/SW-BE06,Chrome 115.0.0.0,,,2023-08-13 12:10:34,2023-08-13 12:10:55,20.877s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 115.0.0.0,,,2023-08-13 12:10:34,2023-08-13 12:10:38,3.809s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,Maximize current window,,2023-08-13 12:10:38,2023-08-13 12:10:38,0.131s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE06/Page_Be a Profressional Talent with Coding.ID/a_Masuk""))",Chrome 115.0.0.0,,,2023-08-13 12:10:38,2023-08-13 12:10:39,1.072s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE06/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email""), ""nekox80432@vreaa.com"")",Chrome 115.0.0.0,,,2023-08-13 12:10:39,2023-08-13 12:10:40,0.989s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE06/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12""), ""password"")",Chrome 115.0.0.0,,,2023-08-13 12:10:40,2023-08-13 12:10:41,0.825s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE06/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login""))",Chrome 115.0.0.0,,,2023-08-13 12:10:41,2023-08-13 12:10:42,0.980s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE06/Page_Be a Profressional Talent with Coding.ID/a_Events""))",Chrome 115.0.0.0,,,2023-08-13 12:10:42,2023-08-13 12:10:43,1.084s,PASSED
+"click(findTestObject(""Web - Flow Beli Event/SW-BE06/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14""))",Chrome 115.0.0.0,,,2023-08-13 12:10:43,2023-08-13 12:10:44,1.122s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE06/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket""))",Chrome 115.0.0.0,,,2023-08-13 12:10:44,2023-08-13 12:10:45,0.615s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE06/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya""))",Chrome 115.0.0.0,,,2023-08-13 12:10:45,2023-08-13 12:10:48,2.624s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/button_Checkout""))",Chrome 115.0.0.0,,,2023-08-13 12:10:48,2023-08-13 12:10:48,0.845s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method""))",Chrome 115.0.0.0,,,2023-08-13 12:10:48,2023-08-13 12:10:49,0.907s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/button_Confirm""))",Chrome 115.0.0.0,,,2023-08-13 12:10:49,2023-08-13 12:10:50,0.571s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/a_Indomaret""))",Chrome 115.0.0.0,,,2023-08-13 12:10:50,2023-08-13 12:10:52,2.261s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/span_Indomaret""), ""Indomaret"")",Chrome 115.0.0.0,,,2023-08-13 12:10:52,2023-08-13 12:10:53,0.663s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE06/Page_Coding.ID - Cart/div_Payment code""), ""Payment code"")",Chrome 115.0.0.0,,,2023-08-13 12:10:53,2023-08-13 12:10:54,0.738s,PASSED
+takeScreenshot(),Chrome 115.0.0.0,,,2023-08-13 12:10:54,2023-08-13 12:10:54,0.478s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-13 12:10:54,2023-08-13 12:10:55,0.683s,PASSED
+,,,,,,,
+Test Cases/Website/SW-Flow Beli Event/SW-BE07 (dummy5),Chrome 115.0.0.0,,,2023-08-13 12:10:55,2023-08-13 12:11:26,31.313s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 115.0.0.0,,,2023-08-13 12:10:55,2023-08-13 12:11:00,5.350s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,Maximize current window,,2023-08-13 12:11:00,2023-08-13 12:11:01,0.130s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE07/Page_Be a Profressional Talent with Coding.ID/a_Masuk""))",Chrome 115.0.0.0,,,2023-08-13 12:11:01,2023-08-13 12:11:02,1.130s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE07/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email""), ""lices23875@viperace.com"")",Chrome 115.0.0.0,,,2023-08-13 12:11:02,2023-08-13 12:11:03,1.534s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE07/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12""), ""password"")",Chrome 115.0.0.0,,,2023-08-13 12:11:03,2023-08-13 12:11:04,0.773s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE07/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login""))",Chrome 115.0.0.0,,,2023-08-13 12:11:04,2023-08-13 12:11:05,1.515s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE07/Page_Be a Profressional Talent with Coding.ID/a_Events""))",Chrome 115.0.0.0,,,2023-08-13 12:11:05,2023-08-13 12:11:07,1.834s,PASSED
+"click(findTestObject(""Web - Flow Beli Event/SW-BE07/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14""))",Chrome 115.0.0.0,,,2023-08-13 12:11:07,2023-08-13 12:11:08,1.046s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE07/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket""))",Chrome 115.0.0.0,,,2023-08-13 12:11:08,2023-08-13 12:11:09,0.679s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE07/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya""))",Chrome 115.0.0.0,,,2023-08-13 12:11:09,2023-08-13 12:11:12,2.964s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/button_Checkout""))",Chrome 115.0.0.0,,,2023-08-13 12:11:12,2023-08-13 12:11:13,0.769s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method""))",Chrome 115.0.0.0,,,2023-08-13 12:11:13,2023-08-13 12:11:14,0.821s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/button_Confirm""))",Chrome 115.0.0.0,,,2023-08-13 12:11:14,2023-08-13 12:11:14,0.666s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/a_Akulaku PayLater""))",Chrome 115.0.0.0,,,2023-08-13 12:11:14,2023-08-13 12:11:15,0.889s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/span_Akulaku PayLater""), ""Akulaku PayLater"")",Chrome 115.0.0.0,,,2023-08-13 12:11:15,2023-08-13 12:11:16,0.505s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE07/Page_Coding.ID - Cart/button_Pay now""))",Chrome 115.0.0.0,,,2023-08-13 12:11:16,2023-08-13 12:11:16,0.705s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-13 12:11:16,2023-08-13 12:11:21,5.020s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE07/Page_Midtrans Mock Payment Provider/input_Phone Number_phoneNumber""), ""08122222222"")",Chrome 115.0.0.0,,,2023-08-13 12:11:21,2023-08-13 12:11:23,1.215s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE07/Page_Midtrans Mock Payment Provider/button_Next""))",Chrome 115.0.0.0,,,2023-08-13 12:11:23,2023-08-13 12:11:23,0.593s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE07/Page_Midtrans Mock Payment Provider/button_Pay""))",Chrome 115.0.0.0,,,2023-08-13 12:11:23,2023-08-13 12:11:24,0.681s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE07/Page_Midtrans Mock Payment Provider/h1_Akulaku""), ""Akulaku"")",Chrome 115.0.0.0,,,2023-08-13 12:11:24,2023-08-13 12:11:24,0.599s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE07/Page_Midtrans Mock Payment Provider/div_Transaction is Successful""), ""Transaction is Successful"")",Chrome 115.0.0.0,,,2023-08-13 12:11:24,2023-08-13 12:11:25,0.445s,PASSED
+takeScreenshot(),Chrome 115.0.0.0,,,2023-08-13 12:11:25,2023-08-13 12:11:25,0.403s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-13 12:11:25,2023-08-13 12:11:26,0.776s,PASSED
+,,,,,,,
+Test Cases/Website/SW-Flow Beli Event/SW-BE09 (dummy6),Chrome 115.0.0.0,,,2023-08-13 12:11:26,2023-08-13 12:11:58,31.434s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 115.0.0.0,,,2023-08-13 12:11:27,2023-08-13 12:11:32,4.745s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,Maximize current window,,2023-08-13 12:11:32,2023-08-13 12:11:32,0.166s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Be a Profressional Talent with Coding.ID/a_Masuk""))",Chrome 115.0.0.0,,,2023-08-13 12:11:32,2023-08-13 12:11:33,1.420s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email""), ""sotol69873@vreaa.com"")",Chrome 115.0.0.0,,,2023-08-13 12:11:33,2023-08-13 12:11:34,0.949s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12""), ""password"")",Chrome 115.0.0.0,,,2023-08-13 12:11:34,2023-08-13 12:11:35,0.764s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login""))",Chrome 115.0.0.0,,,2023-08-13 12:11:35,2023-08-13 12:11:36,1.247s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Be a Profressional Talent with Coding.ID/a_Events""))",Chrome 115.0.0.0,,,2023-08-13 12:11:36,2023-08-13 12:11:38,1.562s,PASSED
+"click(findTestObject(""Web - Flow Beli Event/SW-BE01/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14""))",Chrome 115.0.0.0,,,2023-08-13 12:11:38,2023-08-13 12:11:39,1.301s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Day 3 Predict using Machine Learning - Ziyad/a_Beli Tiket""))",Chrome 115.0.0.0,,,2023-08-13 12:11:39,2023-08-13 12:11:40,0.768s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Day 3 Predict using Machine Learning - Ziyad/a_Lihat                Pembelian Saya""))",Chrome 115.0.0.0,,,2023-08-13 12:11:40,2023-08-13 12:11:42,1.595s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Checkout""))",Chrome 115.0.0.0,,,2023-08-13 12:11:42,2023-08-13 12:11:42,0.925s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/input_Total Pembayaran_payment_method""))",Chrome 115.0.0.0,,,2023-08-13 12:11:42,2023-08-13 12:11:43,0.930s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Confirm""))",Chrome 115.0.0.0,,,2023-08-13 12:11:43,2023-08-13 12:11:44,0.726s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/a_BCA KlikPay""))",Chrome 115.0.0.0,,,2023-08-13 12:11:44,2023-08-13 12:11:45,0.988s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/span_BCA KlikPay""), ""BCA KlikPay"")",Chrome 115.0.0.0,,,2023-08-13 12:11:45,2023-08-13 12:11:46,0.646s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Coding.ID - Cart/button_Pay now""))",Chrome 115.0.0.0,,,2023-08-13 12:11:46,2023-08-13 12:11:47,0.926s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Midtrans Mock Payment Provider/button_Bayar""))",Chrome 115.0.0.0,,,2023-08-13 12:11:47,2023-08-13 12:11:50,3.559s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE03/Page_Midtrans Mock Payment Provider/div_Transaksi Sukses""), ""Transaksi Sukses"")",Chrome 115.0.0.0,,,2023-08-13 12:11:50,2023-08-13 12:11:51,0.494s,PASSED
+"navigateToUrl(""https://demo-app.online/"")",Chrome 115.0.0.0,,,2023-08-13 12:11:51,2023-08-13 12:11:52,0.803s,PASSED
+"click(findTestObject(""Web - Flow Beli Event/SW-BE10/Page_Be a Profressional Talent with Coding.ID/a""))",Chrome 115.0.0.0,,,2023-08-13 12:11:52,2023-08-13 12:11:52,0.880s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE09/Page_Be a Profressional Talent with Coding.ID/a_My Account""))",Chrome 115.0.0.0,,,2023-08-13 12:11:52,2023-08-13 12:11:54,1.107s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE09/Page_Coding.ID - Dashboard/span_Invoice""))",Chrome 115.0.0.0,,,2023-08-13 12:11:54,2023-08-13 12:11:55,1.590s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE09/Page_Coding.ID - Dashboard/span_Completed""), ""Completed"")",Chrome 115.0.0.0,,,2023-08-13 12:11:55,2023-08-13 12:11:56,1.225s,PASSED
+takeScreenshot(),Chrome 115.0.0.0,,,2023-08-13 12:11:56,2023-08-13 12:11:57,0.459s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-13 12:11:57,2023-08-13 12:11:58,0.749s,PASSED
+,,,,,,,
+Test Cases/Website/SW-Flow Beli Event/SW-BE10,Chrome 115.0.0.0,,,2023-08-13 12:11:58,2023-08-13 12:12:15,17.625s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 115.0.0.0,,,2023-08-13 12:11:58,2023-08-13 12:12:06,7.665s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,Maximize current window,,2023-08-13 12:12:06,2023-08-13 12:12:06,0.134s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE10/Page_Be a Profressional Talent with Coding.ID/a_Masuk""))",Chrome 115.0.0.0,,,2023-08-13 12:12:06,2023-08-13 12:12:07,0.802s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE10/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email""), ""pehova5882@viperace.com"")",Chrome 115.0.0.0,,,2023-08-13 12:12:07,2023-08-13 12:12:08,1.074s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE10/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12""), ""password"")",Chrome 115.0.0.0,,,2023-08-13 12:12:08,2023-08-13 12:12:09,0.856s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE10/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login""))",Chrome 115.0.0.0,,,2023-08-13 12:12:09,2023-08-13 12:12:10,0.976s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE10/Page_Be a Profressional Talent with Coding.ID/a""))",Chrome 115.0.0.0,,,2023-08-13 12:12:10,2023-08-13 12:12:10,0.647s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE10/Page_Be a Profressional Talent with Coding.ID/a_My Account""))",Chrome 115.0.0.0,,,2023-08-13 12:12:10,2023-08-13 12:12:11,0.745s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE10/Page_Coding.ID - Dashboard/span_Invoice""))",Chrome 115.0.0.0,,,2023-08-13 12:12:11,2023-08-13 12:12:13,2.258s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE10/Page_Coding.ID - Dashboard/td_No data available in table""), ""No data available in table"")",Chrome 115.0.0.0,,,2023-08-13 12:12:13,2023-08-13 12:12:14,0.742s,PASSED
+takeScreenshot(),Chrome 115.0.0.0,,,2023-08-13 12:12:14,2023-08-13 12:12:15,0.418s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-13 12:12:15,2023-08-13 12:12:15,0.659s,PASSED
+,,,,,,,
+Test Cases/Website/SW-Flow Beli Event/SW-BE11,Chrome 115.0.0.0,,,2023-08-13 12:12:15,2023-08-13 12:12:32,16.394s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 115.0.0.0,,,2023-08-13 12:12:15,2023-08-13 12:12:22,6.538s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,Maximize current window,,2023-08-13 12:12:22,2023-08-13 12:12:22,0.130s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE11/Page_Be a Profressional Talent with Coding.ID/a_Masuk""))",Chrome 115.0.0.0,,,2023-08-13 12:12:22,2023-08-13 12:12:23,1.213s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE11/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email""), isya_katalon_email)",Chrome 115.0.0.0,,,2023-08-13 12:12:23,2023-08-13 12:12:24,1.132s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE11/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12""), isya_katalon_password)",Chrome 115.0.0.0,,,2023-08-13 12:12:24,2023-08-13 12:12:25,0.728s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE11/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login""))",Chrome 115.0.0.0,,,2023-08-13 12:12:25,2023-08-13 12:12:26,1.309s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE11/Page_Be a Profressional Talent with Coding.ID/a_Events""))",Chrome 115.0.0.0,,,2023-08-13 12:12:26,2023-08-13 12:12:28,1.504s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE11/Page_Online event bersertifikat dari prakti_f42b96/div_Day 2 Data Wrangling with Python       _d4413c""))",Chrome 115.0.0.0,,,2023-08-13 12:12:28,2023-08-13 12:12:29,1.567s,PASSED
+"verifyTextPresent(""PENDAFTARAN DITUTUP"", true)",Chrome 115.0.0.0,,,2023-08-13 12:12:29,2023-08-13 12:12:31,1.084s,PASSED
+takeScreenshot(),Chrome 115.0.0.0,,,2023-08-13 12:12:31,2023-08-13 12:12:31,0.441s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-13 12:12:31,2023-08-13 12:12:32,0.629s,PASSED
+,,,,,,,
+Test Cases/Website/SW-Flow Beli Event/SW-BE12,Chrome 115.0.0.0,,,2023-08-13 12:12:32,2023-08-13 12:12:44,12.518s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 115.0.0.0,,,2023-08-13 12:12:32,2023-08-13 12:12:35,3.729s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,Maximize current window,,2023-08-13 12:12:35,2023-08-13 12:12:36,0.154s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE12/Page_Be a Profressional Talent with Coding.ID/a_Masuk""))",Chrome 115.0.0.0,,,2023-08-13 12:12:36,2023-08-13 12:12:36,0.762s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE12/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email""), isya_katalon_email)",Chrome 115.0.0.0,,,2023-08-13 12:12:36,2023-08-13 12:12:38,1.156s,PASSED
+"setText(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE12/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12""), isya_katalon_password)",Chrome 115.0.0.0,,,2023-08-13 12:12:38,2023-08-13 12:12:38,0.725s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE12/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login""))",Chrome 115.0.0.0,,,2023-08-13 12:12:38,2023-08-13 12:12:39,1.096s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE12/Page_Be a Profressional Talent with Coding.ID/a_Events""))",Chrome 115.0.0.0,,,2023-08-13 12:12:39,2023-08-13 12:12:41,1.157s,PASSED
+"click(findTestObject(""Object Repository/Web - Flow Beli Event/SW-BE12/Page_Online event bersertifikat dari prakti_f42b96/div_Day 3 Predict using Machine Learning   _e04a14""))",Chrome 115.0.0.0,,,2023-08-13 12:12:41,2023-08-13 12:12:42,1.273s,PASSED
+"verifyTextPresent(""You are joined"", false)",Chrome 115.0.0.0,,,2023-08-13 12:12:42,2023-08-13 12:12:43,1.136s,PASSED
+takeScreenshot(),Chrome 115.0.0.0,,,2023-08-13 12:12:43,2023-08-13 12:12:43,0.505s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-13 12:12:43,2023-08-13 12:12:44,0.707s,PASSED
